@@ -4,21 +4,19 @@
       "image": "./images/reading_intro.jpg",
       "alt": "me",
       "description": "A little about me.",
-      "text": "This is some example text 1.",
       "path": "about",
       "element" : "About"
     },
     {
-      "title": "Example Title 1",
+      "title": "My Django Experiance",
       "image": "./logos/django.png",
       "alt": "django logo",
       "description": "This is an example description 1.",
-      "text": "This is some example text 1.",
       "path": "django",
       "element" : "Django"
     },
     {
-      "title": "Example Title 2",
+      "title": "My Flask Experiance",
       "image": "./logos/flask.png",
       "alt": "flask logo",
       "description": "This is an example description 2.",

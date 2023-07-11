@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import data from '../PostData.json';
+import data from "../PostData.json";
 import { Link } from "react-router-dom";
-
 
 function PostPreview() {
   const [currentItemIndex, setCurrentItemIndex] = useState(0);
@@ -9,7 +8,7 @@ function PostPreview() {
 
   const handleNextItem = () => {
     setCurrentItemIndex((prevIndex) =>
-      prevIndex === data.length - 1 ? 0 : prevIndex + 1
+      prevIndex === data.length - 1 ? 0 : prevIndex + 1,
     );
   };
 
@@ -17,9 +16,7 @@ function PostPreview() {
     <section>
       <div className="mb-8 md:mb-16">
         <div className="sm:mx-0">
-          <div
-            className="shadow-sm w-full hover:shadow-lg transition-shadow duration-200"
-          >
+          <div className="shadow-sm w-full hover:shadow-lg transition-shadow duration-200">
             <img src={currentItem.image} alt={currentItem.alt} />
           </div>
         </div>
@@ -33,8 +30,19 @@ function PostPreview() {
         </div>
       </div>
       <div className="flex lg:pl-4 lg:w-1/2">
-      <Link to={currentItem.path} class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">Read More</Link>
-      <button onClick={handleNextItem} class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1.5 px-4 border border-gray-400 rounded shadow">Next</button>
+        <Link
+          to={currentItem.path}
+          text={currentItem.text}
+          class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+        >
+          Read More
+        </Link>
+        <button
+          onClick={handleNextItem}
+          class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1.5 px-4 border border-gray-400 rounded shadow"
+        >
+          Next
+        </button>
       </div>
     </section>
   );

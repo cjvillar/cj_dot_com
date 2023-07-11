@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Django() {
+function Flask() {
   return (
-    <div className="max-w-2xl mx-auto">
-      <h1>Django page</h1>
+    <>
+      <h1>Flask page</h1>
       <p></p>
+      <Link to="/">Go Back</Link>
       <hr className="border-neutral-200 mt-28 mb-24"/>
       <Link
         to="/"
@@ -13,8 +14,8 @@ function Django() {
       >
         Go Back
       </Link>
-    </div>
+    </>
   );
 }
 
-export default Django;
+export default Flask;

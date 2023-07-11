@@ -21,7 +21,7 @@ const Footer = () => {
             >
               {/* Empty anchor tag */}
             </a>
-        
+
             <a
               href="https://github.com/cjvillar"
               style={{
