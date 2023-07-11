@@ -1,12 +1,11 @@
 import React from "react";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import PageLayout from "../components/page_layout";
 
 function About() {
-    
   return (
-    <div className="max-w-2xl mx-auto">
+    <PageLayout>
       <h1>About page</h1>
-      <hr className="border-neutral-200 mt-28 mb-24"/>
       <p class="mb-3  first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:mr-2 first-letter:float-left">
         I’m a lifelong learner who gets bouts of creativity. I’ve found coding
         as one medium to express my ideas and explore; it’s always a challenge
@@ -21,16 +20,7 @@ function About() {
         created this website to hopefully inspire others to make things. Feel
         free to connect on <a href="https://github.com/cjvillar">GitHub</a>
       </p>
-      <hr className="border-neutral-200 mt-28 mb-24"/>
-      <Link
-        to="/"
-        class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
-      >
-        Go Back
-      </Link>
-    
-    </div>
-
+    </PageLayout>
   );
 }
 

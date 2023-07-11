@@ -1,27 +1,34 @@
 [
-    {
-      "title": "About Me",
-      "image": "./images/reading_intro.jpg",
-      "alt": "me",
-      "description": "A little about me.",
-      "path": "about",
-      "element" : "About"
-    },
-    {
-      "title": "My Django Experiance",
-      "image": "./logos/django.png",
-      "alt": "django logo",
-      "description": "This is an example description 1.",
-      "path": "django",
-      "element" : "Django"
-    },
-    {
-      "title": "My Flask Experiance",
-      "image": "./logos/flask.png",
-      "alt": "flask logo",
-      "description": "This is an example description 2.",
-      "path": "flask",
-      "element" : "Flask"
-    }
-  ]
-  
+  {
+    "title": "About Me",
+    "image": "./images/reading_intro.jpg",
+    "alt": "me",
+    "description": "A little about me.",
+    "path": "about",
+    "element": "About"
+  },
+  {
+    "title": "My Django Experiance",
+    "image": "./logos/django.png",
+    "alt": "django logo",
+    "description": "This is an example description 1.",
+    "path": "django",
+    "element": "Django"
+  },
+  {
+    "title": "My Flask Experiance",
+    "image": "./logos/flask.png",
+    "alt": "flask logo",
+    "description": "This is an example description 2.",
+    "path": "flask",
+    "element": "Flask"
+  },
+  {
+    "title": "Javascript",
+    "image": "./logos/javascript.png",
+    "alt": "JS logo",
+    "description": "My experiance With Javascript.",
+    "path": "javascript",
+    "element": "Javascript"
+  }
+]

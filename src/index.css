@@ -16,7 +16,6 @@
     monospace;
 } */
 
-
 h1 {
   color: #ea4b07 !important;
 }
@@ -24,4 +23,42 @@ h1 {
 .responsive {
   width: 50%;
   height: auto;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.overlay {
+  background-color: rgba(
+    246,
+    242,
+    242,
+    0.1
+  ); /* Adjust the color and opacity values */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.prevcontainer {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.card {
+  flex-shrink: 0;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
