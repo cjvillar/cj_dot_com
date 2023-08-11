@@ -34,12 +34,7 @@ h1 {
 }
 
 .overlay {
-  background-color: rgba(
-    246,
-    242,
-    242,
-    0.1
-  ); /* Adjust the color and opacity values */
+  background-color: rgba(60, 58, 58, 0.5); /* Adjust the color and opacity values */
 }
 
 ::-webkit-scrollbar {

@@ -1,17 +1,16 @@
 import PostPreview from "./PostPreview";
 import Header from "./Header";
 import Footer from "./Footer";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import {Routes, Route, useLocation } from "react-router-dom";
 import About from "../pages/About";
 import Django from "../pages/Django";
 import Flask from "../pages/Flask";
 import Javascript from "../pages/Javascript";
+import LeetCode from "../pages/LeetCode";
 
 function App() {
   return (
-    <BrowserRouter>
       <AppContent />
-    </BrowserRouter>
   );
 }
 
@@ -36,6 +35,7 @@ function AppContent() {
             <Route path="/django" element={<Django />} />
             <Route path="/flask" element={<Flask />} />
             <Route path="/javascript" element={<Javascript />} />
+            <Route path="/LeetCode" element={<LeetCode />} />
           </Routes>
           <Footer />
         </div>

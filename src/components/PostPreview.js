@@ -28,16 +28,18 @@ function PostPreview() {
               } transition-opacity duration-500`}
             >
               <img
-                className="h-auto max-w-md"
+                className="h-auto" // max-w-md"
                 src={currentItem.image}
                 alt={currentItem.alt}
               />
             </div>
+            {/* <div className=" absolute inset-0 flex flex-col justify-center items-center bg-transparent overlay"> */}
             <div className=" absolute inset-0 flex flex-col justify-center items-center bg-transparent overlay">
-              <h2 className="text--slate-50 text-4xl lg:text-5xl font-bold leading-tight">
+            
+              <h2 className="text-white text-4xl lg:text-6xl font-bold leading-tight">
                 {currentItem.title}
               </h2>
-              <div className="text-white text-lg">
+              <div className="text-white text-xlg">
                 {currentItem.description}
               </div>
             </div>

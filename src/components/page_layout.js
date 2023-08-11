@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 function PageLayout({ children }) {
   return (
+    <>
     <div className="max-w-2xl mx-auto">
       <hr className="border-neutral-200 mt-28 mb-24" />
       {children}
@@ -14,6 +15,7 @@ function PageLayout({ children }) {
         Go Back
       </Link>
     </div>
+    </>
   );
 }
 
