@@ -1,0 +1,76 @@
+import React, { useState } from "react";
+import { FaBars, FaTimes, FaHome, FaReact } from "react-icons/fa";
+import { DiDjango } from "react-icons/di";
+import { BiLogoFlask } from "react-icons/bi";
+import cv from "../images/CV.svg";
+import { Link } from "react-scroll";
+
+const Navigation = () => {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
+  const closeMenu = () => setClick(false);
+
+  return (
+    <div className="nav-header">
+      <nav className="navbar">
+        <img src={cv} width={100} height={100} alt="cv logo img" />
+        <div className="hamburger" onClick={handleClick}>
+          {click ? <FaTimes size={30} /> : <FaBars size={30} />}
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                onClick={closeMenu}
+              >
+                <FaHome size={30} />
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="react"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                onClick={closeMenu}
+              >
+                <FaReact size={30} />
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="django"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                onClick={closeMenu}
+              >
+                <DiDjango size={30} />
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="flask"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                onClick={closeMenu}
+              >
+                <BiLogoFlask size={30} />
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  );
+};
+
+export default Navigation;
