@@ -37,7 +37,8 @@ ul {
 }
 
 a {
-  text-decoration: none;
+  color: #fe5005;
+  font-style: italic;
 }
 
 .button {
@@ -224,6 +225,10 @@ a {
       padding: 0;
   }
 
+  .content .container a {
+    color: #fe5005;
+    font-style: italic;
+}
   .content button {
       margin-bottom: 1rem;
   }
@@ -239,12 +244,12 @@ a {
   padding: 3rem 1rem;
 }
 
-.footer .container {
+.footer .footer-container {
   max-width: 1240px;
   margin: auto;
   text-align: center;
 }
-
+/* 
 .footer ul {
   display: flex;
   justify-content: center;
@@ -252,10 +257,11 @@ a {
 
 .footer li {
   padding: 1rem;
-}
+} */
 
-.footer li a {
-  color: #fff;
+.footer a {
+  color: #090909;
+  display: inline-block;
 }
 
 .footer li a:hover {
