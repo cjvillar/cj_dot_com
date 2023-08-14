@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaHome, FaReact } from "react-icons/fa";
-import { BiLogoFlask, BiLogoDjango } from "react-icons/bi";
+import { FaBars, FaTimes } from "react-icons/fa";
+
 import cv from "../images/name_logo.svg";
 import { Link } from "react-scroll";
 
@@ -29,7 +29,7 @@ const Navigation = () => {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={{ top: -200, bottom: -300 }}
                 duration={500}
                 onClick={closeMenu}
               >
@@ -41,7 +41,7 @@ const Navigation = () => {
                 to="react"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-210}
                 duration={500}
                 onClick={closeMenu}
               >
@@ -53,7 +53,7 @@ const Navigation = () => {
                 to="django"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-200}
                 duration={500}
                 onClick={closeMenu}
               >
@@ -65,7 +65,7 @@ const Navigation = () => {
                 to="flask"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-200}
                 duration={500}
                 onClick={closeMenu}
               >

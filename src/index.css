@@ -59,14 +59,40 @@ a {
 }
 
 .line {
-  display: block;
-  width: 30px;
-  height: 3px;
-  /* margin: 5px auto; */
-  margin-bottom: 10px;
   background-color: var(--primary-color);
 }
 
+/* hoverover tooltip */
+.hover-over {
+  font-weight: bold;
+  position: relative;
+  color: #3490dc; /* Text color */
+  transition: color 0.3s;
+}
+
+.hover-over:hover {
+  color: #2779bd; /* Hovered text color */
+}
+
+.hover-over span {
+  opacity: 0;
+  visibility: hidden;
+  background-color: #333; /* Tooltip background color */
+  color: #fff; /* Tooltip text color */
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 4px 8px;
+  position: absolute;
+  bottom: -24px; /* Adjust the spacing from the anchor */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.hover-over:hover span {
+  opacity: 1;
+  visibility: visible;
+}
 
 .bg-color {
   color: #272725;

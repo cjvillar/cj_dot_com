@@ -3,22 +3,34 @@ import { BiLogoFlask } from "react-icons/bi";
 
 function Flask() {
   return (
-    <div className="content" id="flask">
-      <div className="container">
-        <div className="col-2">
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "auto 1fr",
-              gap: "8px",
-            }}
+    <div className="flex flex-col items-center content">
+      <div className="flex items-center mb-2">
+        <BiLogoFlask size={45} className="mr-2" />
+        <h2 className="font-bold">Flask</h2>
+      </div>
+
+      <span class="w-16 h-1 line"></span>
+      <div
+        className="flex justify-start md:flex-row flex-col content"
+        id="flask"
+      >
+        <div class="md:w-1/2 flex items-center justify-center flex-col">
+          <img
+            src={null}
+            alt="flask"
+            className="small-image md:large-image lg:larger-image xl:larger-image"
+          />
+        </div>
+        <div class="md:w-1/2 flex items-center justify-center"></div>
+        <span className="line"></span>
+        <div className="flex flex-col">
+          <a
+            className="font-bold hover-over"
+            href="https://github.com/cjvillar/flask_template"
           >
-            <BiLogoFlask size={45} />
-            <h2>Flask</h2>
-          </div>
-          <span className="line"></span>
-          <p>
-            A goal of mine is to learn the{" "}
+            Exploring Flask <span>Click to go to GitHub repo</span>
+          </a>
+          <p className="p-8">
             <a href="https://flask.palletsprojects.com/en/2.2.x/">Flask</a> web
             framework by creating a simple web app. This project launches a web
             app that allows users to create an account and then search for a
@@ -31,6 +43,7 @@ function Flask() {
             as intended. There is room for more functionality but all in all I
             think its a good start.
           </p>
+          <p className="p-8">NEXT</p>
         </div>
       </div>
     </div>
