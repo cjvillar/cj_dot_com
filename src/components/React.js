@@ -1,5 +1,7 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
+import code_bg from "../images/code_bg.svg";
+import { ReactComponent as CodeBG } from "../images/code_bg.svg";
 
 function ReactPage() {
   return (
@@ -15,11 +17,12 @@ function ReactPage() {
         id="react"
       >
         <div class="md:w-1/2 flex items-center justify-center flex-col">
-          <img
-            src={null}
+          {/* <img
+            src={code_bg}
             alt="react"
             className="small-image md:large-image lg:larger-image xl:larger-image"
-          />
+          /> */}
+          <CodeBG />
         </div>
         <div class="md:w-1/2 flex items-center justify-center"></div>
         <span className="line"></span>

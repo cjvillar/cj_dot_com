@@ -1,5 +1,6 @@
 import React from "react";
 import { BiLogoDjango } from "react-icons/bi";
+import { ReactComponent as CodeBG } from "../images/code_bg.svg";
 
 function Django() {
   return (
@@ -15,11 +16,12 @@ function Django() {
         id="django"
       >
         <div class="md:w-1/2 flex items-center justify-center flex-col">
-          <img
+          {/* <img
             src={null}
             alt="django"
             className="small-image md:large-image lg:larger-image xl:larger-image"
-          />
+          /> */}
+          <CodeBG />
         </div>
         <div class="md:w-1/2 flex items-center justify-center"></div>
         <span className="line"></span>
