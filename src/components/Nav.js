@@ -12,12 +12,18 @@ const Navigation = () => {
 
   return (
     <div className="nav-header">
-    <nav className="navbar">
-      <img src={cv} width={400} height={400} alt="cv logo img" />
-      <div className="hamburger" onClick={handleClick}>
-        <FaBars className={` md lg:hidden ${click ? "hidden" : ""}`} size={30} />
-        <FaTimes className={`md lg:hidden ${click ? "" : "hidden"}`} size={30} />
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
+      <nav className="navbar">
+        <img src={cv} width={400} height={400} alt="cv logo img" />
+        <div className="hamburger" onClick={handleClick}>
+          <FaBars
+            className={` md lg:hidden ${click ? "hidden" : ""}`}
+            size={30}
+          />
+          <FaTimes
+            className={`md lg:hidden ${click ? "" : "hidden"}`}
+            size={30}
+          />
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link
                 to="about"
