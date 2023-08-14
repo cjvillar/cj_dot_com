@@ -4,12 +4,13 @@ import me from "../images/me.png";
 function About() {
   return (
     <div className="content" id="about">
+     
+      <div className="container">
       <img
         src={me}
         alt="Person img"
         className="img-right-top w-44 h-44 ml-4 "
       />
-      <div className="container">
         <div className="col-2">
           <h2>About</h2>
           <span className="line"></span>

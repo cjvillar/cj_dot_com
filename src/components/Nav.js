@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaHome, FaReact } from "react-icons/fa";
 import { BiLogoFlask, BiLogoDjango } from "react-icons/bi";
-import cv from "../images/CV.svg";
+import cv from "../images/name_logo.svg";
 import { Link } from "react-scroll";
 
 const Navigation = () => {
@@ -12,11 +12,12 @@ const Navigation = () => {
 
   return (
     <div className="nav-header">
-      <nav className="navbar">
-        <img src={cv} width={100} height={100} alt="cv logo img" />
-        <div className="hamburger" onClick={handleClick}>
-          {click ? <FaTimes size={30} /> : <FaBars size={30} />}
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+    <nav className="navbar">
+      <img src={cv} width={400} height={400} alt="cv logo img" />
+      <div className="hamburger" onClick={handleClick}>
+        <FaBars className={` md lg:hidden ${click ? "hidden" : ""}`} size={30} />
+        <FaTimes className={`md lg:hidden ${click ? "" : "hidden"}`} size={30} />
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link
                 to="about"
