@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaHome, FaReact } from "react-icons/fa";
-import { DiDjango } from "react-icons/di";
-import { BiLogoFlask } from "react-icons/bi";
+import { BiLogoFlask, BiLogoDjango } from "react-icons/bi";
 import cv from "../images/CV.svg";
 import { Link } from "react-scroll";
 
@@ -27,7 +26,7 @@ const Navigation = () => {
                 duration={500}
                 onClick={closeMenu}
               >
-                <FaHome size={30} />
+                About
               </Link>
             </li>
             <li className="nav-item">
@@ -39,7 +38,7 @@ const Navigation = () => {
                 duration={500}
                 onClick={closeMenu}
               >
-                <FaReact size={30} />
+                React/Next.js
               </Link>
             </li>
             <li className="nav-item">
@@ -51,7 +50,7 @@ const Navigation = () => {
                 duration={500}
                 onClick={closeMenu}
               >
-                <DiDjango size={30} />
+                Django
               </Link>
             </li>
             <li className="nav-item">
@@ -63,7 +62,7 @@ const Navigation = () => {
                 duration={500}
                 onClick={closeMenu}
               >
-                <BiLogoFlask size={30} />
+                Flask
               </Link>
             </li>
           </ul>

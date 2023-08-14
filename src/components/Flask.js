@@ -5,11 +5,19 @@ function Flask() {
   return (
     <div className="content" id="flask">
       <div className="container">
-        <BiLogoFlask size={30} />
         <div className="col-2">
-          <h2>Flask</h2>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "auto 1fr",
+              gap: "8px",
+            }}
+          >
+            <BiLogoFlask size={45} />
+            <h2>Flask</h2>
+          </div>
           <span className="line"></span>
-          <p class="mb-3  first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:mr-2 first-letter:float-left">
+          <p>
             A goal of mine is to learn the{" "}
             <a href="https://flask.palletsprojects.com/en/2.2.x/">Flask</a> web
             framework by creating a simple web app. This project launches a web

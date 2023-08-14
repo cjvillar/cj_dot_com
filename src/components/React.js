@@ -5,21 +5,20 @@ function ReactPage() {
   return (
     <div className="content" id="react">
       <div className="container">
-        <FaReact size={30} />
         <div className="col-2">
-          <h2>React/Next.js </h2>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "auto 1fr",
+              gap: "8px",
+            }}
+          >
+            <FaReact size={45} />
+            <h2>React/Next.js</h2>
+          </div>
           <span className="line"></span>
-          <p cassName="first-letter:mr-2 first-letter:float-left">
-            In my previous role, part of my duties were to help maintain a React
-            app that received genomic data from various APIs and served the info
-            in a user-friendly experience. This app was super complex and I just
-            had to make sure the components and their respective test worked
-            with the our downstream changes. This simple project gave me a
-            better understanding of how the React and Django REST Frameworks
-            work together.
-          </p>
-
-          <p class="m-3">
+          <a href="https://github.com/cjvillar/NextThoughts">Thoughts.</a>
+          <p>
             "Thoughts" is a vibrant full-stack web application crafted with the
             power of the Next.js framework for the front end, MongoDB for
             seamless data storage, and effortlessly brought to life through
@@ -30,6 +29,18 @@ function ReactPage() {
             <a href="https://next-thoughts-ashen.vercel.app/"> thoughts.</a>
             The site uses the Google Oauth API which is set to test mode so only
             allowed users can make an account.
+          </p>
+
+          <a href="https://github.com/cjvillar/Animal_Rescue">Animal Rescue</a>
+
+          <p>
+            In my previous role, part of my duties were to help maintain a React
+            app that received genomic data from various APIs and served the info
+            in a user-friendly experience. This app was super complex and I just
+            had to make sure the components and their respective test worked
+            with the our downstream changes. This simple project gave me a
+            better understanding of how the React and Django REST Frameworks
+            work together.
           </p>
         </div>
       </div>

@@ -5,11 +5,19 @@ function Django() {
   return (
     <div className="content" id="django">
       <div className="container">
-        <BiLogoDjango size={30} />
         <div className="col-2">
-          <h2>Django</h2>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "auto 1fr",
+              gap: "8px",
+            }}
+          >
+            <BiLogoDjango size={45} />
+            <h2>Django</h2>
+          </div>
           <span className="line"></span>
-          <p class="mb-3  first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:mr-2 first-letter:float-left">
+          <p>
             This is basically the same as my Simple Flask App but with{" "}
             <a href="https://www.djangoproject.com/">Django</a> and some added
             functionality. The main reason for this project was to promote

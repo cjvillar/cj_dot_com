@@ -4,14 +4,16 @@ import me from "../images/me.png";
 function About() {
   return (
     <div className="content" id="about">
-      <div className="img">
-        <img src={me} width={200} height={200} alt="Person img" />
-      </div>
+      <img
+        src={me}
+        alt="Person img"
+        className="img-right-top w-44 h-44 ml-4 "
+      />
       <div className="container">
         <div className="col-2">
           <h2>About</h2>
           <span className="line"></span>
-          <p class="mb-3  first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:mr-2 first-letter:float-left">
+          <p>
             I’m a lifelong learner who gets bouts of creativity. I’ve found
             coding as one medium to express my ideas and explore; it’s always a
             challenge and I appreciate that. Professionally, I’ve been working
