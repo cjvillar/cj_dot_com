@@ -45,7 +45,6 @@ function Flask() {
             as intended. There is room for more functionality but all in all I
             think its a good start.
           </p>
-          <p className="p-8">NEXT</p>
         </div>
       </div>
     </div>

@@ -24,8 +24,9 @@ function ReactPage() {
           /> */}
           <CodeBG />
         </div>
+
         <div class="md:w-1/2 flex items-center justify-center"></div>
-        <span className="line"></span>
+        {/* <span className="line"></span> */}
         <div className="flex flex-col">
           <a
             className="font-bold hover-over"

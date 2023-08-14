@@ -72,6 +72,21 @@ const Navigation = () => {
                 Flask
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                to="unity"
+                spy={true}
+                smooth={true}
+                offset={-200}
+                duration={500}
+                onClick={closeMenu}
+              >
+                Unity
+              </Link>
+            </li>
+            <li className="nav-item">
+              <a href="https://www.cjvillarreal.com/ChrisCodes/">Blog</a>
+            </li>
           </ul>
         </div>
       </nav>

@@ -4,6 +4,7 @@ import About from "./components/About";
 import Django from "./components/Django";
 import Flask from "./components/Flask";
 import ReactPage from "./components/React";
+import Unity from "./components/Unity";
 import Footer from "./components/Footer";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <ReactPage />
       <Django />
       <Flask />
+      <Unity />
       <Footer />
     </div>
   );
