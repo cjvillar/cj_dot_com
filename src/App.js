@@ -6,11 +6,13 @@ import Flask from "./components/Flask";
 import ReactPage from "./components/React";
 import Unity from "./components/Unity";
 import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div>
       <Nav />
+      <Hero />
       <About />
       <ReactPage />
       <Django />

@@ -29,7 +29,7 @@ const Navigation = () => {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={{ top: -200, bottom: -300 }}
+                offset={-200}
                 duration={500}
                 onClick={closeMenu}
               >
