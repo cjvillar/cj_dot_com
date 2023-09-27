@@ -1,16 +1,15 @@
 import React from "react";
 import { FaUnity } from "react-icons/fa";
-import { ReactComponent as CodeBG } from "../images/code_bg.svg";
 
 function Unity() {
   return (
     <div className="flex flex-col items-center content">
       <div className="flex items-center mb-2">
         <FaUnity size={45} className="mr-2" />
-        <h2 className="font-bold">Unity </h2>
+        <h2 >Unity </h2>
       </div>
 
-      <span class="w-16 h-1 line"></span>
+     
       <div
         className="flex justify-start md:flex-row flex-col content"
         id="unity"
@@ -21,7 +20,6 @@ function Unity() {
             alt="django"
             className="small-image md:large-image lg:larger-image xl:larger-image"
           /> */}
-          <CodeBG />
         </div>
         <div class="md:w-1/2 flex items-center justify-center"></div>
         {/* <span className="line"></span> */}

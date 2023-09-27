@@ -1,36 +1,15 @@
 import React from "react";
-import me from "../images/me.png";
+import me from "../images/chris_image_2.png";
+import uc from "../images/GIlogo@2x.png";
+import hca from "../images/human-cell-atlas.png";
+import nvt from "../images/iOXZt1.tif.svg";
 
 function About() {
-  const skills = [
-    "Python",
-    "Django",
-    "Flask",
-    "Javascript",
-    "React",
-    "Next",
-    "HTML",
-    "CSS",
-    "SQL",
-    "Unix",
-    "Bash Shell",
-    "Git",
-    "GitHub",
-    "Git Actions",
-    "CI/CD",
-    "Docker",
-    "Agile/Scrum Methodologies",
-    "Test Automation",
-    "Cypress",
-    "API Testing (Postman, RESTful)",
-  ];
   return (
     <div className="flex flex-col items-center content">
       <div className="flex items-center mb-2">
-        <h2 class="font-bold">About</h2>
+        <h2>About</h2>
       </div>
-
-      <span class="w-16 h-1 line"></span>
       <div
         className="flex justify-start md:flex-row flex-col content"
         id="about"
@@ -64,17 +43,19 @@ function About() {
               things. Feel free to connect on{" "}
               <a href="https://github.com/cjvillar">GitHub</a>
             </p>
-            <p className="p-8">
-              <h3 class="font-bold">Skills:</h3>
-              {skills.map((skill, index) => (
-                <span
-                  key={index}
-                  className="inline-block border border-gray-400 p-2 m-1 rounded-md"
-                >
-                  {skill}
-                </span>
-              ))}
-            </p>
+
+           
+          <div class="flex-grid">
+            <div className="d-col-4 t-col-4 m-col-4">
+              <img src={nvt} alt="Person img" className="logo-img" />
+            </div>
+            <div class="d-col-4 t-col-4 m-col-4">
+              <img src={hca} alt="Person img" className="logo-img" />
+            </div>
+            <div className="d-col-4 t-col-4 m-col-4">
+              <img src={uc} alt="Person img" className="logo-img" />
+            </div>
+          </div>
           </div>
         </div>
       </div>
