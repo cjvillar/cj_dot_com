@@ -9,14 +9,11 @@ function ReactPage() {
         <h2>React/Next.js</h2>
       </div>
 
-     
       <div
         className="flex justify-start md:flex-row flex-col content"
         id="react"
       >
-        <div class="md:w-1/2 flex items-center justify-center flex-col">
-    
-        </div>
+        <div class="md:w-1/2 flex items-center justify-center flex-col"></div>
 
         <div class="md:w-1/2 flex items-center justify-center"></div>
         {/* <span className="line"></span> */}

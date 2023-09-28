@@ -15,14 +15,8 @@ const Navigation = () => {
           Christopher <span style={{ color: "white" }}>Villarreal</span>
         </h3>
         <div className="hamburger" onClick={handleClick}>
-          <FaBars
-            className={`lg:hidden ${click ? "hidden" : ""}`}
-            size={30}
-          />
-          <FaTimes
-            className={`lg:hidden ${click ? "" : "hidden"}`}
-            size={30}
-          />
+          <FaBars className={`lg:hidden ${click ? "hidden" : ""}`} size={30} />
+          <FaTimes className={`lg:hidden ${click ? "" : "hidden"}`} size={30} />
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link

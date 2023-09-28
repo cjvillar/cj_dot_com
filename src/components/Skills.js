@@ -25,8 +25,8 @@ const Skills = () => {
     "API Testing (Postman, RESTful)",
   ];
   return (
-    <section className="flex-wrapper" id="Skills">
-      <div className="flex-grid relative h-screen">
+    <section className="flex-wrapper relative inset-40 h-screen" id="Skills">
+      <div className="flex-grid ">
         <div className="d-col-6 t-col-6 m-col-12">
           <img src={WhiteBackSlash} alt="logo img" className="skill-image" />
         </div>

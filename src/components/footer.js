@@ -3,7 +3,10 @@ import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="flex-wrapper footer relative h-screen" id="Connect">
+    <div
+      className="flex-wrapper footer relative inset-20 h-screen"
+      id="Connect"
+    >
       <div className="footer-container">
         <h3>Connect:</h3>
 

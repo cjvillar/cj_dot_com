@@ -1,5 +1,3 @@
-
-
 import React, { useState } from "react";
 import Django from "./Django";
 import Flask from "./Flask";
@@ -29,39 +27,40 @@ const Projects = () => {
   };
 
   return (
-    <section className="flex-wrapper relative h-screen" id="Projects">
+    <section className="flex-wrapper relative h-screen project" id="Projects">
       <div className="flex-grid ">
-        <div className="d-col-3 t-col-6 m-col-12">
+        {/* <div className="d-col-3 t-col-6 m-col-12"></div> */}
+        <div className="component-buttons d-col-3 t-col-4 m-col-6">
+          <button
+            onClick={() => handleComponentChange("ReactPage")}
+            className={activeComponent === "ReactPage" ? "active" : ""}
+          >
+            React
+          </button>
+          <button
+            onClick={() => handleComponentChange("Django")}
+            className={activeComponent === "Django" ? "active" : ""}
+          >
+            Django
+          </button>
+          <button
+            onClick={() => handleComponentChange("Flask")}
+            className={activeComponent === "Flask" ? "active" : ""}
+          >
+            Flask
+          </button>
+          <button
+            onClick={() => handleComponentChange("Unity")}
+            className={activeComponent === "Unity" ? "active" : ""}
+          >
+            Unity
+          </button>
         </div>
         <div className="d-col-9 t-col-6 m-col-12">
           <div className="flex-grid">
             <div className="d-col-12 t-col-12 m-col-12">
-              <div className="component-container">{renderActiveComponent()}</div>
-              <div className="component-buttons">
-                <button
-                  onClick={() => handleComponentChange("ReactPage")}
-                  className={activeComponent === "ReactPage" ? "active" : ""}
-                >
-                  React
-                </button>
-                <button
-                  onClick={() => handleComponentChange("Django")}
-                  className={activeComponent === "Django" ? "active" : ""}
-                >
-                  Django
-                </button>
-                <button
-                  onClick={() => handleComponentChange("Flask")}
-                  className={activeComponent === "Flask" ? "active" : ""}
-                >
-                  Flask
-                </button>
-                <button
-                  onClick={() => handleComponentChange("Unity")}
-                  className={activeComponent === "Unity" ? "active" : ""}
-                >
-                  Unity
-                </button>
+              <div className="component-container">
+                {renderActiveComponent()}
               </div>
             </div>
           </div>
@@ -72,4 +71,3 @@ const Projects = () => {
 };
 
 export default Projects;
-

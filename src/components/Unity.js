@@ -6,10 +6,9 @@ function Unity() {
     <div className="flex flex-col items-center content">
       <div className="flex items-center mb-2">
         <FaUnity size={45} className="mr-2" />
-        <h2 >Unity </h2>
+        <h2>Unity </h2>
       </div>
 
-     
       <div
         className="flex justify-start md:flex-row flex-col content"
         id="unity"

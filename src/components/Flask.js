@@ -9,7 +9,6 @@ function Flask() {
         <h2>Flask</h2>
       </div>
 
-   
       <div
         className="flex justify-start md:flex-row flex-col content"
         id="flask"

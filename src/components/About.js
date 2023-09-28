@@ -18,7 +18,8 @@ function About() {
           <img
             src={me}
             alt="Person img"
-            className="small-image md:large-image lg:larger-image xl:larger-image"
+            // className="sm:small-image md:small-image lg:small-image xl:small-image"
+            className="about-image"
           />
         </div>
 
@@ -44,18 +45,17 @@ function About() {
               <a href="https://github.com/cjvillar">GitHub</a>
             </p>
 
-           
-          <div class="flex-grid">
-            <div className="d-col-4 t-col-4 m-col-4">
-              <img src={nvt} alt="Person img" className="logo-img" />
+            <div class="flex-grid">
+              <div className="d-col-12 t-col-4 m-col-4">
+                <img src={nvt} alt="Person img" className="logo-img" />
+              </div>
+              <div class="d-col-12 t-col-4 m-col-4">
+                <img src={hca} alt="Person img" className="logo-img" />
+              </div>
+              <div className="d-col-12 t-col-4 m-col-4">
+                <img src={uc} alt="Person img" className="logo-img" />
+              </div>
             </div>
-            <div class="d-col-4 t-col-4 m-col-4">
-              <img src={hca} alt="Person img" className="logo-img" />
-            </div>
-            <div className="d-col-4 t-col-4 m-col-4">
-              <img src={uc} alt="Person img" className="logo-img" />
-            </div>
-          </div>
           </div>
         </div>
       </div>

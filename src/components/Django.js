@@ -6,10 +6,9 @@ function Django() {
     <div className="flex flex-col items-center content">
       <div className="flex items-center mb-2">
         <BiLogoDjango size={45} className="mr-2" />
-        <h2 >Django</h2>
+        <h2>Django</h2>
       </div>
 
-    
       <div
         className="flex justify-start md:flex-row flex-col content"
         id="django"
