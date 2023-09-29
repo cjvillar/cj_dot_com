@@ -1,27 +1,21 @@
 import React from "react";
 import { BiLogoFlask } from "react-icons/bi";
-import { ReactComponent as CodeBG } from "../images/code_bg.svg";
 
 function Flask() {
   return (
-    <div className="flex flex-col items-center content">
+    <div className="flex flex-col items-center content h-screen">
       <div className="flex items-center mb-2">
         <BiLogoFlask size={45} className="mr-2" />
-        <h2 className="font-bold">Flask</h2>
+        <h2>Flask</h2>
       </div>
 
-      <span class="w-16 h-1 line"></span>
-      <div
-        className="flex justify-start md:flex-row flex-col content"
-        id="flask"
-      >
+      <div className="flex justify-start md:flex-row flex-col" id="flask">
         <div class="md:w-1/2 flex items-center justify-center flex-col">
           {/* <img
             src={null}
             alt="flask"
             className="small-image md:large-image lg:larger-image xl:larger-image"
           /> */}
-          <CodeBG />
         </div>
         <div class="md:w-1/2 flex items-center justify-center"></div>
         <span className="line"></span>

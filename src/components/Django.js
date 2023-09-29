@@ -1,27 +1,24 @@
 import React from "react";
 import { BiLogoDjango } from "react-icons/bi";
-import { ReactComponent as CodeBG } from "../images/code_bg.svg";
 
 function Django() {
   return (
-    <div className="flex flex-col items-center content">
+    <div
+      className="flex flex-col items-center content-1 h-screen"
+      id="Projects"
+    >
       <div className="flex items-center mb-2">
         <BiLogoDjango size={45} className="mr-2" />
-        <h2 className="font-bold">Django</h2>
+        <h2>Django</h2>
       </div>
 
-      <span class="w-16 h-1 line"></span>
-      <div
-        className="flex justify-start md:flex-row flex-col content"
-        id="django"
-      >
+      <div className="flex justify-start md:flex-row flex-col" id="django">
         <div class="md:w-1/2 flex items-center justify-center flex-col">
           {/* <img
             src={null}
             alt="django"
             className="small-image md:large-image lg:larger-image xl:larger-image"
           /> */}
-          <CodeBG />
         </div>
         <div class="md:w-1/2 flex items-center justify-center"></div>
         {/* <span className="line"></span> */}

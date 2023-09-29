@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-
-import cv from "../images/name_logo.svg";
 import { Link } from "react-scroll";
 
 const Navigation = () => {
@@ -13,17 +11,13 @@ const Navigation = () => {
   return (
     <div className="nav-header">
       <nav className="navbar">
-        <img src={cv} width={400} height={400} alt="cv logo img" />
+        <h3 className="cv-logo">
+          Christopher <span style={{ color: "white" }}>Villarreal</span>
+        </h3>
         <div className="hamburger" onClick={handleClick}>
-          <FaBars
-            className={` md lg:hidden ${click ? "hidden" : ""}`}
-            size={30}
-          />
-          <FaTimes
-            className={`md lg:hidden ${click ? "" : "hidden"}`}
-            size={30}
-          />
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <FaBars className={`lg:hidden ${click ? "hidden" : ""}`} size={30} />
+          <FaTimes className={`lg:hidden ${click ? "" : "hidden"}`} size={30} />
+          <ul className={click ? "nav-menu active" : "nav-menu "}>
             <li className="nav-item">
               <Link
                 to="about"
@@ -38,54 +32,39 @@ const Navigation = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="react"
+                to="Skills"
                 spy={true}
                 smooth={true}
-                offset={-210}
+                offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
-                React/Next.js
+                Skills
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="django"
+                to="Projects"
                 spy={true}
                 smooth={true}
-                offset={-200}
+                offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
-                Django
+                Projects
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="flask"
+                to="Connect"
                 spy={true}
                 smooth={true}
-                offset={-200}
+                offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
-                Flask
+                Connect
               </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="unity"
-                spy={true}
-                smooth={true}
-                offset={-200}
-                duration={500}
-                onClick={closeMenu}
-              >
-                Unity
-              </Link>
-            </li>
-            <li className="nav-item">
-              <a href="https://www.cjvillarreal.com/ChrisCodes/">Blog</a>
             </li>
           </ul>
         </div>
