@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/cj_dot_com/static/css/main.af6e8f65.css",
-    "main.js": "/cj_dot_com/static/js/main.8a060249.js",
+    "main.css": "/cj_dot_com/static/css/main.18e4b46e.css",
+    "main.js": "/cj_dot_com/static/js/main.8f4d5ea5.js",
     "static/js/787.85f7daf6.chunk.js": "/cj_dot_com/static/js/787.85f7daf6.chunk.js",
-    "static/media/me.png": "/cj_dot_com/static/media/me.aa4ec5804f884e1581ea.png",
-    "static/media/hero_MP4.gif": "/cj_dot_com/static/media/hero_MP4.9b63fcc29815aac758a9.gif",
-    "static/media/name_logo.svg": "/cj_dot_com/static/media/name_logo.df3991678218c04ed064cf228fd14dcc.svg",
-    "static/media/code_bg.svg": "/cj_dot_com/static/media/code_bg.e3e9c8139e2608e99f40df2cd66216e2.svg",
+    "static/media/chris_image_2.png": "/cj_dot_com/static/media/chris_image_2.e6b6d4f6127778b606e8.png",
+    "static/media/Group 80@2x.png": "/cj_dot_com/static/media/Group 80@2x.dbc606d40d0c1a942918.png",
+    "static/media/GIlogo@2x.png": "/cj_dot_com/static/media/GIlogo@2x.90061ad74491cd5b97e1.png",
+    "static/media/human-cell-atlas.png": "/cj_dot_com/static/media/human-cell-atlas.217cea5a30e640a1c9e7.png",
+    "static/media/iOXZt1.tif.svg": "/cj_dot_com/static/media/iOXZt1.tif.cc7fcdb76f222125cd9c438bad280b1d.svg",
+    "static/media/white_stripe.svg": "/cj_dot_com/static/media/white_stripe.9bfed3275208e6d2f9d7c19c8f6bf74e.svg",
     "index.html": "/cj_dot_com/index.html",
-    "main.af6e8f65.css.map": "/cj_dot_com/static/css/main.af6e8f65.css.map",
-    "main.8a060249.js.map": "/cj_dot_com/static/js/main.8a060249.js.map",
+    "main.18e4b46e.css.map": "/cj_dot_com/static/css/main.18e4b46e.css.map",
+    "main.8f4d5ea5.js.map": "/cj_dot_com/static/js/main.8f4d5ea5.js.map",
     "787.85f7daf6.chunk.js.map": "/cj_dot_com/static/js/787.85f7daf6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af6e8f65.css",
-    "static/js/main.8a060249.js"
+    "static/css/main.18e4b46e.css",
+    "static/js/main.8f4d5ea5.js"
   ]
 }
