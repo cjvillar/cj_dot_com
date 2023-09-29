@@ -7,6 +7,11 @@
   --secondary-color: #be845a;
 }
 
+.app {
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
 body {
   margin: 0;
   background-color: #272727;
@@ -14,6 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.2rem;
+  max-width: 100%;
   overflow-x: hidden !important;
 }
 
@@ -280,10 +286,8 @@ p {
 }
 
 .hero {
-  /* margin-top: 9%;
-  margin-left: 10%; */
-  margin: auto;
-  /* margin-right: auto; */
+  margin-top: 30%;
+  margin-left: 10%;
 }
 
 .hero h1 {
@@ -352,6 +356,13 @@ p {
 .content {
   margin: auto;
   padding: 8rem 1rem 0 1rem;
+  background-color: #2e2e2e;
+}
+
+.content-1 {
+  margin: auto;
+  padding: 8rem 1rem 0 1rem;
+  background-color: #272727;
 }
 
 /* Projects */
@@ -392,8 +403,14 @@ p {
   cursor: pointer;
 }
 
+.footer-img {
+  width: 100px;
+  height: 150px;
+  margin-bottom: auto;
+  float: right;
+}
+
 .footer {
-  position: relative;
   width: auto;
   height: auto;
 }
@@ -473,7 +490,7 @@ p {
   }
 }
 
-@media (max-width: 979px) {
+@media (max-width: 979px) and (min-width: 0px) {
   .flex-wrapper {
     padding-left: 6%;
     padding-right: 6%;
@@ -529,9 +546,10 @@ p {
   }
 
   .custom-button {
+    margin-top: 10%;
     font-size: 12pt;
     font-weight: 12;
-    padding: 12px 12px;
+    padding: 8px 8px;
   }
 
   .cv-logo {
@@ -548,16 +566,25 @@ p {
   }
 
   .hero h1 {
-    font-size: 12pt;
-    line-height: 12pt;
+    font-size: 18pt;
+    line-height: 18pt;
   }
 
   .hero-img {
     width: 100px;
-    height: 100px;
+    height: 200px;
   }
 
   p {
-    font-size: small;
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .skill-image {
+    visibility: hidden;
+  }
+
+  .about-mobile {
+    margin: auto;
   }
 }

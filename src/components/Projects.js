@@ -27,7 +27,10 @@ const Projects = () => {
   };
 
   return (
-    <section className="flex-wrapper relative h-screen project" id="Projects">
+    <section
+      className="flex-wrapper relative h-screen project inset-10"
+      id="Projects"
+    >
       <div className="flex-grid ">
         {/* <div className="d-col-3 t-col-6 m-col-12"></div> */}
         <div className="component-buttons d-col-3 t-col-4 m-col-6">

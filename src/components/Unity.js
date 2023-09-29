@@ -3,16 +3,13 @@ import { FaUnity } from "react-icons/fa";
 
 function Unity() {
   return (
-    <div className="flex flex-col items-center content">
+    <div className="flex flex-col items-center content h-screen">
       <div className="flex items-center mb-2">
         <FaUnity size={45} className="mr-2" />
         <h2>Unity </h2>
       </div>
 
-      <div
-        className="flex justify-start md:flex-row flex-col content"
-        id="unity"
-      >
+      <div className="flex justify-start md:flex-row flex-col" id="unity">
         <div class="md:w-1/2 flex items-center justify-center flex-col">
           {/* <img
             src={null}

@@ -3,16 +3,13 @@ import { BiLogoFlask } from "react-icons/bi";
 
 function Flask() {
   return (
-    <div className="flex flex-col items-center content">
+    <div className="flex flex-col items-center content h-screen">
       <div className="flex items-center mb-2">
         <BiLogoFlask size={45} className="mr-2" />
         <h2>Flask</h2>
       </div>
 
-      <div
-        className="flex justify-start md:flex-row flex-col content"
-        id="flask"
-      >
+      <div className="flex justify-start md:flex-row flex-col" id="flask">
         <div class="md:w-1/2 flex items-center justify-center flex-col">
           {/* <img
             src={null}

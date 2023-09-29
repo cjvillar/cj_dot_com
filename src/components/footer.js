@@ -1,14 +1,12 @@
 import React from "react";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
+import backSlash from "../images/Group 80@2x.png";
 
 const Footer = () => {
   return (
-    <div
-      className="flex-wrapper footer relative inset-20 h-screen"
-      id="Connect"
-    >
-      <div className="footer-container">
-        <h3>Connect:</h3>
+    <div className="flex-wrapper footer h-screen content-1" id="Connect">
+      <div className="footer-container ">
+        <h2>Connect</h2>
 
         <p className="grey-p">
           I’m open to new projects and collaborations, feel free to connect with
@@ -34,6 +32,7 @@ const Footer = () => {
           <FaGithubSquare size={80} color=" #ffffff" />
         </a>
         {/* </button> */}
+        <img src={backSlash} alt="logo img" className="footer-img" />
       </div>
     </div>
   );

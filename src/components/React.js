@@ -3,16 +3,13 @@ import { FaReact } from "react-icons/fa";
 
 function ReactPage() {
   return (
-    <div className="flex flex-col items-center content">
+    <div className="flex flex-col items-center content-1 h-screen">
       <div className="flex items-center mb-2">
         <FaReact size={45} className="mr-2" />
         <h2>React/Next.js</h2>
       </div>
 
-      <div
-        className="flex justify-start md:flex-row flex-col content"
-        id="react"
-      >
+      <div className="flex justify-start md:flex-row flex-col " id="react">
         <div class="md:w-1/2 flex items-center justify-center flex-col"></div>
 
         <div class="md:w-1/2 flex items-center justify-center"></div>

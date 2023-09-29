@@ -17,7 +17,7 @@ const Navigation = () => {
         <div className="hamburger" onClick={handleClick}>
           <FaBars className={`lg:hidden ${click ? "hidden" : ""}`} size={30} />
           <FaTimes className={`lg:hidden ${click ? "" : "hidden"}`} size={30} />
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <ul className={click ? "nav-menu active" : "nav-menu "}>
             <li className="nav-item">
               <Link
                 to="about"
@@ -35,7 +35,7 @@ const Navigation = () => {
                 to="Skills"
                 spy={true}
                 smooth={true}
-                offset={-200}
+                offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
@@ -47,7 +47,7 @@ const Navigation = () => {
                 to="Projects"
                 spy={true}
                 smooth={true}
-                offset={-200}
+                offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
@@ -59,7 +59,7 @@ const Navigation = () => {
                 to="Connect"
                 spy={true}
                 smooth={true}
-                offset={-200}
+                offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
