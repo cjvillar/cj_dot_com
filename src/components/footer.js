@@ -4,7 +4,7 @@ import backSlash from "../images/Group 80@2x.png";
 
 const Footer = () => {
   return (
-    <div className="flex-wrapper footer h-screen content-1" id="Connect">
+    <footer className="flex-wrapper footer h-screen content-1" id="Connect">
       <div className="footer-container ">
         <h2>Connect</h2>
 
@@ -34,7 +34,7 @@ const Footer = () => {
         {/* </button> */}
         <img src={backSlash} alt="logo img" className="footer-img" />
       </div>
-    </div>
+    </footer>
   );
 };
 
