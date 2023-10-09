@@ -13,7 +13,7 @@ import Unity from "./components/Unity";
 
 function App() {
   return (
-    <div className="app">
+    <div className="app ">
       <Nav />
       <Hero />
       <About />
