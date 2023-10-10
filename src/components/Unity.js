@@ -38,7 +38,6 @@ function Unity() {
           width="400"
           height="200"
           controls="controls"
-          autoplay="false"
         />
       </div>
     </div>
