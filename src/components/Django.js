@@ -10,7 +10,7 @@ function Django() {
         className="flex flex-wrap items-center content-1 h-screen"
         id="Projects"
       >
-        <div className="flex items-center m-8">
+        <div className="flex items-center mb-2 md:translate-x-60">
           <div className="rounded-full bg-gray-700 m-4">
             <BiLogoDjango size={45} className="m-2 logo-clr" />
           </div>

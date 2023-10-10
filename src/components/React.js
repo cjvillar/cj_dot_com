@@ -14,8 +14,7 @@ function ReactPage() {
       </div>
 
       <div className="flex justify-start md:flex-row flex-col " id="react">
-        {/* <div class="md:w-1/2 flex items-center justify-center flex-col"></div> */}
-
+       
         <div class="md:w-1/2 flex items-center justify-center"></div>
 
         <div className="flex flex-col">
@@ -42,12 +41,6 @@ function ReactPage() {
             allowed users can make an account.
           </p>
 
-          <a
-            className="font-bold hover-over"
-            href="https://github.com/cjvillar/pieAct"
-          >
-            Raspberry Pi Price: <span>Click to go to GitHub repo</span>
-          </a>
           <div className="m-4 project-img-card">
             <video
               src={raspimage}
@@ -56,6 +49,12 @@ function ReactPage() {
               autoplay="false"
             />
           </div>
+          <a
+            className="font-bold hover-over"
+            href="https://github.com/cjvillar/pieAct"
+          >
+            Raspberry Pi Price: <span>Click to go to GitHub repo</span>
+          </a>
           <p className="p-8">
             This project came about one morning when I woke up with the urge to
             automate something. Recently, Raspberry Pi prices have been
