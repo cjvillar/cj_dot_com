@@ -398,7 +398,7 @@ p {
 }
 
 /*Footer*/
-/* RoundedButtonIcons.css */
+
 .contact-button {
   background-color: rgba(255, 255, 255, 0.1);
   cursor: pointer;
@@ -412,30 +412,6 @@ p {
   &:hover {
     background-color: rgba(255, 255, 255, 0.3);
   }
-}
-
-.footer {
-  width: auto;
-  height: auto;
-}
-
-.footer .footer-container {
-  margin-bottom: 20px;
-}
-
-.footer a {
-  color: #090909;
-  display: inline-block;
-}
-
-.footer li a:hover {
-  padding-bottom: 12px;
-  border-bottom: 3px solid var(--secondary-color);
-}
-
-.bottom {
-  text-align: center;
-  padding-top: 3rem;
 }
 
 @media (min-width: 980px) {

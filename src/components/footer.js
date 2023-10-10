@@ -4,9 +4,9 @@ import backSlash from "../images/Group 80@2x.png";
 
 const Footer = () => {
   return (
-    <div className="flex-wrapper footer h-screen content-1" id="Connect">
-      <div className="footer-container flex flex-wrap items-center justify-center">
-        <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 text-left">
+    <div className="flex-wrapper h-screen flex justify-center" id="Connect">
+      <div className="mb-5 flex flex-wrap">
+        <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 text-left ">
           <h2 className="text-left">Connect</h2>
           <p className="grey-p text-left">
             I’m open to new projects and collaborations, feel free to connect
@@ -18,7 +18,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/cjvillarreal-bay-area/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="nav-item"
+                className="flex justify-center"
               >
                 <AiFillLinkedin size={50} color=" #ffffff" />
               </a>
@@ -29,7 +29,7 @@ const Footer = () => {
                 href="https://github.com/cjvillar"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="nav-item"
+                className="flex justify-center"
               >
                 <AiFillGithub size={50} color=" #ffffff" />
               </a>

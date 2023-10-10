@@ -55,6 +55,9 @@ const Navigation = () => {
               </Link>
             </li>
             <li className="nav-item">
+              <a href="https://www.cjvillarreal.com/ChrisCodes/">Blog</a>
+            </li>
+            <li className="nav-item">
               <Link
                 to="Connect"
                 spy={true}
