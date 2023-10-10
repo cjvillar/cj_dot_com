@@ -32,6 +32,13 @@ h2 {
   color: #ffffff;
 }
 
+.logo-clr {
+  cursor: pointer;
+  width: 50px; /* Set the width and height to be the same for a perfect circle */
+  height: 50px;
+  color: #ffffff;
+}
+
 h3 {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: bold;
@@ -44,6 +51,11 @@ h3 {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  color: #8f9093;
+  font-size: larger;
 }
 
 ul {
@@ -361,6 +373,20 @@ p {
 }
 
 /* Projects */
+.project-img-card {
+  width: 300px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.project-img-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px 15px 0 0;
+}
 
 .project {
   overflow-y: scroll;
@@ -395,8 +421,8 @@ p {
 .contact-button {
   background-color: rgba(255, 255, 255, 0.1);
   cursor: pointer;
-  width: 100px; /* Set the width and height to be the same for a perfect circle */
-  height: 100px;
+  width: 80px; /* Set the width and height to be the same for a perfect circle */
+  height: 80px;
   border-radius: 50%; /* Use border-radius: 50% to create a circle */
   color: #fff;
   transition: background-color 0.3s ease;

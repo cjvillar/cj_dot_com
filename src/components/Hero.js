@@ -4,11 +4,11 @@ import backSlash from "../images/Group 80@2x.png";
 
 const Hero = () => {
   return (
-    <section className="flex-wrapper h-screen inset-20 hero overflow-y-auto max-sm:translate-y-40">
+    <section className="flex-wrapper h-screen inset-20 hero overflow-y-auto max-md:translate-y-40">
       <div className="flex-grid m-4">
-        <div className="d-col-12 t-col-6 m-col-2 text-justify" id="hero">
+        <div className="d-col-12 t-col-6 m-col-2 text-left" id="hero">
           <h1 className="hero">
-            Hi, I’m <span style={{ color: "#BE845A" }}>Chris</span>, A Software
+            Hi, I’m <span style={{ color: "#BE845A" }}>Chris</span>, a Software
             Developer
           </h1>
           <div className="break"></div>
