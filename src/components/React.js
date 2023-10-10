@@ -3,7 +3,7 @@ import { FaReact } from "react-icons/fa";
 
 function ReactPage() {
   return (
-    <div className="flex flex-col items-center content-1 h-screen">
+    <div className="flex flex-col items-center content-1 h-screen overflow-y-auto">
       <div className="flex items-center mb-2">
         <FaReact size={45} className="mr-2" />
         <h2>React/Next.js</h2>
@@ -13,7 +13,7 @@ function ReactPage() {
         <div class="md:w-1/2 flex items-center justify-center flex-col"></div>
 
         <div class="md:w-1/2 flex items-center justify-center"></div>
-        {/* <span className="line"></span> */}
+
         <div className="flex flex-col">
           <a
             className="font-bold hover-over"
