@@ -7,11 +7,6 @@
   --secondary-color: #be845a;
 }
 
-.app {
-  max-width: 100%;
-  overflow-x: hidden !important;
-}
-
 body {
   margin: 0;
   background-color: #272727;
@@ -334,8 +329,6 @@ p {
 
 .skillGrid {
   margin-top: auto;
-  /* display: flex;
-  align-items: center; */
 }
 
 .skillBox {
@@ -535,8 +528,6 @@ p {
     width: auto;
     height: auto;
     margin-left: 0.1rem;
-    /* margin: auto; */
-    /* position: relative; */
   }
 
   .about-image {
@@ -556,7 +547,6 @@ p {
 
   p {
     font-size: 12px;
-    text-align: justify;
   }
 
   .skill-image {

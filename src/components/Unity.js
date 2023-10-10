@@ -3,7 +3,7 @@ import { FaUnity } from "react-icons/fa";
 
 function Unity() {
   return (
-    <div className="flex flex-col items-center content h-screen">
+    <div className="flex flex-col items-center content h-screen overflow-y-auto">
       <div className="flex items-center mb-2">
         <FaUnity size={45} className="mr-2" />
         <h2>Unity </h2>
@@ -17,8 +17,8 @@ function Unity() {
             className="small-image md:large-image lg:larger-image xl:larger-image"
           /> */}
         </div>
-        <div class="md:w-1/2 flex items-center justify-center"></div>
-        {/* <span className="line"></span> */}
+        {/* <div class="md:w-1/2 flex items-center justify-center"></div> */}
+
         <div className="flex flex-col">
           <a
             className="font-bold hover-over"

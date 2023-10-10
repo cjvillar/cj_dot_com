@@ -6,14 +6,18 @@ import nvt from "../images/iOXZt1.tif.svg";
 
 function About() {
   return (
-    <section className="flex-wrapper content h-screen" id="about">
+    <section className="flex-wrap content h-screen overflow-y-auto" id="about">
       <div className="flex flex-col items-center">
         <div className="flex justify-start md:flex-row flex-col">
-          <div class="md:w-1/2 flex items-center flex-col">
-            <img src={me} alt="Person img" className="about-image" />
+          <div class="md:w-1/2 flex items-center flex-col ">
+            <img
+              src={me}
+              alt="Person img"
+              className="about-image md:translate-y-20 xl:translate-x-20"
+            />
           </div>
 
-          <div class="md:w-1/2 lg:w-1/2 lg:m-16 flex items-center justify-center">
+          <div class="md:w-1/2 lg:w-1/2 lg:mr-40 flex items-center justify-center ">
             <div className="flex flex-col">
               <h2 className="text-left ml-7">About</h2>
               <p className="p-8 mr-4">

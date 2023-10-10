@@ -3,7 +3,7 @@ import { BiLogoDjango } from "react-icons/bi";
 
 function Django() {
   return (
-    <div className="flex-wrapper h-screen flex justify-center">
+    <div className="flex-wrapper h-screen flex justify-center overflow-y-auto">
       <div
         className="flex flex-wrap items-center content-1 h-screen"
         id="Projects"

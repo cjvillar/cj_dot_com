@@ -35,7 +35,7 @@ const Navigation = () => {
                 to="Skills"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-60}
                 duration={500}
                 onClick={closeMenu}
               >
@@ -47,7 +47,7 @@ const Navigation = () => {
                 to="Projects"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-30}
                 duration={500}
                 onClick={closeMenu}
               >

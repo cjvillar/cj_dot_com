@@ -4,7 +4,7 @@ import backSlash from "../images/Group 80@2x.png";
 
 const Hero = () => {
   return (
-    <section className="flex-wrapper h-screen inset-20 hero">
+    <section className="flex-wrapper h-screen inset-20 hero overflow-y-auto max-sm:translate-y-40">
       <div className="flex-grid m-4">
         <div className="d-col-12 t-col-6 m-col-2 text-justify" id="hero">
           <h1 className="hero">
