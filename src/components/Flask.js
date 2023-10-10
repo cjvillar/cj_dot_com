@@ -1,21 +1,22 @@
 import React from "react";
 import { BiLogoFlask } from "react-icons/bi";
+import flaskappimg from "../images/flask_app.png";
 
 function Flask() {
   return (
     <div className="flex flex-col items-center content h-screen overflow-y-auto">
       <div className="flex items-center mb-2">
-        <BiLogoFlask size={45} className="mr-2" />
+        <div className="rounded-full bg-gray-700 m-4">
+          <BiLogoFlask size={45} className="m-2 logo-clr" />
+        </div>
         <h2>Flask</h2>
       </div>
 
       <div className="flex justify-start md:flex-row flex-col" id="flask">
         <div class="md:w-1/2 flex items-center justify-center flex-col">
-          {/* <img
-            src={null}
-            alt="flask"
-            className="small-image md:large-image lg:larger-image xl:larger-image"
-          /> */}
+          <div className="m-4 project-img-card">
+            <img src={flaskappimg} alt="app view" />
+          </div>
         </div>
         <div class="md:w-1/2 flex items-center justify-center"></div>
         <span className="line"></span>

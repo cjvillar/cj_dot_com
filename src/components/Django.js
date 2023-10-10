@@ -1,5 +1,7 @@
 import React from "react";
 import { BiLogoDjango } from "react-icons/bi";
+import dimage from "../images/django_app_screenshot.png";
+import aimage from "../images/animal_rescue.gif";
 
 function Django() {
   return (
@@ -9,21 +11,20 @@ function Django() {
         id="Projects"
       >
         <div className="flex items-center m-8">
-          <BiLogoDjango size={45} className="mr-2" />
+          <div className="rounded-full bg-gray-700 m-4">
+            <BiLogoDjango size={45} className="m-2 logo-clr" />
+          </div>
           <h2>Django</h2>
         </div>
 
         <div className="flex justify-start md:flex-row flex-col" id="django">
-          <div class="md:w-1/2 flex items-center justify-center flex-col">
-            {/* <img
-            src={null}
-            alt="django"
-            className="small-image md:large-image lg:larger-image xl:larger-image"
-          /> */}
-          </div>
+          <div class="md:w-1/2 flex items-center justify-center flex-col"></div>
           <div class="md:w-1/2 flex items-center justify-center"></div>
-          {/* <span className="line"></span> */}
+
           <div className="flex flex-col">
+            <div className="m-4 project-img-card">
+              <img src={dimage} alt="django" />
+            </div>
             <a
               className="font-bold hover-over"
               href="https://github.com/the-metadata-dog/rsid_django_project"
@@ -48,6 +49,10 @@ function Django() {
               and run the CI/CD pipeline with GitHub Actions. This is an
               evolving project but feel free to join in on the fun.
             </p>
+
+            <div className="m-4 project-img-card">
+              <img src={aimage} alt="django" />
+            </div>
             <a
               className="font-bold hover-over"
               href="https://github.com/cjvillar/Animal_Rescue"
