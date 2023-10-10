@@ -23,7 +23,7 @@ const Navigation = () => {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-200}
+                offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
@@ -53,6 +53,9 @@ const Navigation = () => {
               >
                 Projects
               </Link>
+            </li>
+            <li className="nav-item">
+              <a href="https://www.cjvillarreal.com/ChrisCodes/">Blog</a>
             </li>
             <li className="nav-item">
               <Link

@@ -1,14 +1,13 @@
-describe('Static React Website E2E Tests', () => {
+describe("Static React Website E2E Tests", () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000/cj_dot_com'); // Update URL as needed
+    cy.visit("http://localhost:3000/cj_dot_com"); // Update URL as needed
   });
 
-  it('Loads the homepage and verifies the title', () => {
-    cy.title().should('eq', 'CJs Website');
+  it("Loads the homepage and verifies the title", () => {
+    cy.title().should("eq", "CJs Website");
   });
 
-  
-  it('Tests website responsiveness', () => {
+  it("Tests website responsiveness", () => {
     cy.viewport(320, 480); //Test mobile view
     // TODO: Add assertions for mobile layout
 
@@ -19,12 +18,11 @@ describe('Static React Website E2E Tests', () => {
     // TODO: Add assertions for desktop layout
   });
 
-  it('Verifies the presence of key elements', () => {
-    cy.get('nav').should('exist');
-    cy.get('#about').should('exist'); //looks for id='about'
-    cy.get('footer').should('exist');
+  it("Verifies the presence of key elements", () => {
+    cy.get("nav").should("exist");
+    cy.get("#about").should("exist"); //looks for id='about'
+    cy.get("footer").should("exist");
 
     // TODO: Add more element checks as needed.
   });
-
 });
