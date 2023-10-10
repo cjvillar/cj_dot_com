@@ -1,6 +1,6 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
-import thoughtimage from "../images/thougths.png";
+import thoughtimage from "../images/thoughts.png";
 import raspimage from "../images/react_pie .mov";
 
 function ReactPage() {
