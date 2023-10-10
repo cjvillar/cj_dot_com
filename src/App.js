@@ -5,7 +5,6 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
-
 import Django from "./components/Django";
 import Flask from "./components/Flask";
 import ReactPage from "./components/React";

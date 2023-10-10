@@ -25,26 +25,32 @@ const Skills = () => {
     "API Testing (Postman, RESTful)",
   ];
   return (
-    <div className="flex flex-col items-center content h-screen" id="Skills">
-      <div className="flex justify-start md:flex-row flex-col">
-        <div class="md:w-1/2 flex items-center justify-center flex-col">
-          <img src={WhiteBackSlash} alt="Person img" className="skill-image" />
+    <section className="flex-wrapper">
+      <div className="flex-grid relative h-screen" id="Skills">
+        <div className="d-col-3 t-col-6 m-col-12">
+          <img
+            src={WhiteBackSlash}
+            alt="logo img"
+            className="skill-image invisible lg:visible"
+          />
         </div>
+        <div className="d-col-9 t-col-6 m-col-12">
+          <h2 className="text-left">Skills</h2>
+          <p className="grey-p text-left">
+            Here is a more comprehensive list of all my skills. Projects and
+            references are available upon request.
+          </p>
 
-        <div class="md:w-1/2 flex items-center justify-center">
-          <div className="flex flex-col">
-            <p className="p-8">
-              <h2 class="font-bold">Skills</h2>
-              {mySkills.map((skill, index) => (
-                <span key={index} className="skillBox">
-                  {skill}
-                </span>
-              ))}
-            </p>
+          <div className="d-col-12 t-col-12 m-col-12">
+            {mySkills.map((skill, index) => (
+              <span key={index} className="skillBox">
+                <p>{skill}</p>
+              </span>
+            ))}
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

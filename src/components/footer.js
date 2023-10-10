@@ -1,40 +1,50 @@
 import React from "react";
-import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import backSlash from "../images/Group 80@2x.png";
 
 const Footer = () => {
   return (
-    <footer className="flex-wrapper footer h-screen content-1" id="Connect">
-      <div className="footer-container ">
-        <h2>Connect</h2>
-
-        <p className="grey-p">
-          I’m open to new projects and collaborations, feel free to connect with
-          me on social or drop me a line!
-        </p>
-        {/* <button className="contact-button"> */}
-        <a
-          href="https://www.linkedin.com/in/cjvillarreal-bay-area/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="nav-item"
-        >
-          <FaLinkedin size={80} color=" #ffffff" />
-        </a>
-        {/* </button> */}
-        {/* <button className="contact-button"> */}
-        <a
-          href="https://github.com/cjvillar"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="nav-item"
-        >
-          <FaGithubSquare size={80} color=" #ffffff" />
-        </a>
-        {/* </button> */}
-        <img src={backSlash} alt="logo img" className="footer-img" />
+    <div className="flex-wrapper footer h-screen content-1" id="Connect">
+      <div className="footer-container flex flex-wrap items-center justify-center">
+        <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 text-left">
+          <h2 className="text-left">Connect</h2>
+          <p className="grey-p text-left">
+            I’m open to new projects and collaborations, feel free to connect
+            with me on social or drop me a line!
+          </p>
+          <div className="mt-8">
+            <button className="contact-button">
+              <a
+                href="https://www.linkedin.com/in/cjvillarreal-bay-area/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="nav-item"
+              >
+                <AiFillLinkedin size={50} color=" #ffffff" />
+              </a>
+            </button>
+            <span className="m-2"></span>
+            <button className="contact-button">
+              <a
+                href="https://github.com/cjvillar"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="nav-item"
+              >
+                <AiFillGithub size={50} color=" #ffffff" />
+              </a>
+            </button>
+          </div>
+        </div>
+        <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2">
+          <img
+            src={backSlash}
+            alt="logo img"
+            className="w-50 h-80 mx-auto relative invisible md:visible"
+          />
+        </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
