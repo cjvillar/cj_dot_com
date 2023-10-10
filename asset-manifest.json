@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/cj_dot_com/static/css/main.d1f9de5d.css",
-    "main.js": "/cj_dot_com/static/js/main.cf6424ad.js",
+    "main.js": "/cj_dot_com/static/js/main.d927f68c.js",
     "static/js/787.85f7daf6.chunk.js": "/cj_dot_com/static/js/787.85f7daf6.chunk.js",
     "static/media/unity_game.mov": "/cj_dot_com/static/media/unity_game.aa82f24ea1713ec572a0.mov",
     "static/media/react_pie .mov": "/cj_dot_com/static/media/react_pie .9e1b17e7acdfafa2379b.mov",
     "static/media/animal_rescue.gif": "/cj_dot_com/static/media/animal_rescue.224826294ce07d5ccbbb.gif",
-    "static/media/thougths.png": "/cj_dot_com/static/media/thougths.18f095499cbf6cca2a12.png",
+    "static/media/thoughts.png": "/cj_dot_com/static/media/thoughts.ce7d55eab465cf8d6673.png",
     "static/media/chris_image_2.png": "/cj_dot_com/static/media/chris_image_2.e6b6d4f6127778b606e8.png",
     "static/media/django_app_screenshot.png": "/cj_dot_com/static/media/django_app_screenshot.b77374fda7a5bf776949.png",
     "static/media/Group 80@2x.png": "/cj_dot_com/static/media/Group 80@2x.dbc606d40d0c1a942918.png",
@@ -17,11 +17,11 @@
     "static/media/white_stripe.svg": "/cj_dot_com/static/media/white_stripe.9bfed3275208e6d2f9d7c19c8f6bf74e.svg",
     "index.html": "/cj_dot_com/index.html",
     "main.d1f9de5d.css.map": "/cj_dot_com/static/css/main.d1f9de5d.css.map",
-    "main.cf6424ad.js.map": "/cj_dot_com/static/js/main.cf6424ad.js.map",
+    "main.d927f68c.js.map": "/cj_dot_com/static/js/main.d927f68c.js.map",
     "787.85f7daf6.chunk.js.map": "/cj_dot_com/static/js/787.85f7daf6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1f9de5d.css",
-    "static/js/main.cf6424ad.js"
+    "static/js/main.d927f68c.js"
   ]
 }
