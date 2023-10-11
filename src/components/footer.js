@@ -40,7 +40,7 @@ const Footer = () => {
           <img
             src={backSlash}
             alt="logo img"
-            className="w-50 h-80 mx-auto relative invisible md:visible"
+            className="w-30 h-60 mx-auto relative invisible md:visible"
           />
         </div>
       </div>
