@@ -10,15 +10,15 @@ function Django() {
         className="flex flex-wrap items-center content-1 h-auto"
         id="Projects"
       >
-        <div className="flex items-center mb-2 md:translate-x-60">
+        <div className="flex items-center mb-2">
           <div className="rounded-full bg-gray-700 m-4">
             <BiLogoDjango size={45} className="m-2 logo-clr" />
           </div>
           <h2>Django</h2>
         </div>
 
-        <div className="flex justify-start md:flex-row flex-col" id="django">
-          <div class="md:w-1/2 flex items-center justify-center flex-col"></div>
+        <div className="flex justify-start md:flex-row flex-col">
+          <div class="md:w-1/2 flex items-center justify-center"></div>
 
           <div className="flex flex-col">
             <div className="m-4 project-img-card">
