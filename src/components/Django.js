@@ -5,9 +5,9 @@ import aimage from "../images/animal_rescue.gif";
 
 function Django() {
   return (
-    <div className="flex-wrapper h-screen flex justify-center overflow-y-auto">
+    <div className="flex-wrapper flex justify-center">
       <div
-        className="flex flex-wrap items-center content-1 h-screen"
+        className="flex flex-wrap items-center content-1 h-auto"
         id="Projects"
       >
         <div className="flex items-center mb-2 md:translate-x-60">

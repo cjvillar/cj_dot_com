@@ -5,7 +5,7 @@ import raspimage from "../images/react_pie .mov";
 
 function ReactPage() {
   return (
-    <div className="flex flex-col items-center content-1 h-screen overflow-y-auto">
+    <div className="flex flex-col items-center content-1 h-auto">
       <div className="flex items-center mb-2">
         <div className="rounded-full bg-gray-700 m-4">
           <FaReact size={45} className="m-2 logo-clr" />
@@ -14,7 +14,6 @@ function ReactPage() {
       </div>
 
       <div className="flex justify-start md:flex-row flex-col " id="react">
-       
         <div class="md:w-1/2 flex items-center justify-center"></div>
 
         <div className="flex flex-col">

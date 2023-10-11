@@ -4,7 +4,7 @@ import unity from "../images/unity_game.mov";
 
 function Unity() {
   return (
-    <div className="flex flex-col items-center content h-screen overflow-y-auto">
+    <div className="flex flex-col items-center content h-auto">
       <div className="flex items-center mb-2">
         <div className="rounded-full bg-gray-700 m-4">
           <FaUnity size={45} className="m-2 logo-clr" />
@@ -33,12 +33,7 @@ function Unity() {
         </div>
       </div>
       <div className="m-4 project-img-card">
-        <video
-          src={unity}
-          width="400"
-          height="200"
-          controls="controls"
-        />
+        <video src={unity} width="400" height="200" controls="controls" />
       </div>
     </div>
   );

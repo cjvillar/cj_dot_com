@@ -26,7 +26,7 @@ const Skills = () => {
   ];
   return (
     <section className="flex-wrapper overflow-y-auto">
-      <div className="flex-grid relative h-screen" id="Skills">
+      <div className="flex-grid relative h-auto" id="Skills">
         <div className="d-col-3 t-col-6 m-col-12">
           <img
             src={WhiteBackSlash}

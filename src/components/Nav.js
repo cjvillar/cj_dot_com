@@ -11,7 +11,7 @@ const Navigation = () => {
   return (
     <div className="nav-header">
       <nav className="navbar">
-        <h3 className="cv-logo">
+        <h3 className="cv-logo md:ml-4">
           Christopher <span style={{ color: "white" }}>Villarreal</span>
         </h3>
         <div className="hamburger" onClick={handleClick}>
