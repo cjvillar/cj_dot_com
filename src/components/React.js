@@ -15,6 +15,7 @@ function ReactPage() {
 
       <div className="flex justify-start md:flex-row flex-col " id="react">
         <div class="md:w-1/2 flex items-center justify-center"></div>
+        
 
         <div className="flex flex-col">
           <div className="m-4 project-img-card">
