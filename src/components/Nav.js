@@ -18,12 +18,12 @@ const Navigation = () => {
           <FaBars className={`lg:hidden ${click ? "hidden" : ""}`} size={30} />
           <FaTimes className={`lg:hidden ${click ? "" : "hidden"}`} size={30} />
           <ul className={click ? "nav-menu active" : "nav-menu "}>
-            <li className="nav-item">
+            <li className="nav-item md:scroll-my-2">
               <Link
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-60}
                 duration={500}
                 onClick={closeMenu}
               >
@@ -35,7 +35,7 @@ const Navigation = () => {
                 to="Skills"
                 spy={true}
                 smooth={true}
-                offset={-60}
+                offset={-75}
                 duration={500}
                 onClick={closeMenu}
               >
@@ -47,7 +47,7 @@ const Navigation = () => {
                 to="Projects"
                 spy={true}
                 smooth={true}
-                offset={-30}
+                offset={-75}
                 duration={500}
                 onClick={closeMenu}
               >
