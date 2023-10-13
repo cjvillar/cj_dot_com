@@ -6,10 +6,7 @@ import aimage from "../images/animal_rescue.gif";
 function Django() {
   return (
     <div className="flex-wrapper flex content justify-center">
-      <div
-        className="flex flex-wrap items-center  h-auto"
-        id="Projects"
-      >
+      <div className="flex flex-wrap items-center  h-auto" id="Projects">
         <div className="flex items-center mb-2">
           <div className="rounded-full bg-gray-700 m-4">
             <BiLogoDjango size={45} className="m-2 logo-clr" />
