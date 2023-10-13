@@ -22,24 +22,24 @@ function Unity() {
             </div>
 
             <div className="flex flex-col">
-            <a
-              className="font-bold hover-over ml-8"
-              href="https://github.com/cjvillar/cats-are-jerks"
-            >
-              Unity Game Engine. <span>Click to go to GitHub repo</span>
-            </a>
-            <p className="p-8">
-              I created some pixel art which then inspired 3d objects. After a
-              bunch of coffee, I tried to make a game in Unity. The game is a
-              work in progress (like so many others), so it may change.{" "}
-              <a href="https://www.cjvillarreal.com/cats-are-jerks/">
-                Play it in the browser.
+              <a
+                className="font-bold hover-over ml-8"
+                href="https://github.com/cjvillar/cats-are-jerks"
+              >
+                Unity Game Engine. <span>Click to go to GitHub repo</span>
               </a>
-            </p>
+              <p className="p-8">
+                I created some pixel art which then inspired 3d objects. After a
+                bunch of coffee, I tried to make a game in Unity. The game is a
+                work in progress (like so many others), so it may change. Play
+                it{" "}
+                <a href="https://www.cjvillarreal.com/cats-are-jerks/">here</a>{" "}
+                (Desktop only).
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 }

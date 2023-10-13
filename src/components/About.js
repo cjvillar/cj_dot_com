@@ -13,11 +13,11 @@ function About() {
             <img
               src={me}
               alt="Person img"
-              className="about-image md:translate-y-20 xl:translate-x-20"
+              className="about-image md:translate-y-15 xl:translate-x-20"
             />
           </div>
 
-          <div class="md:w-1/2 lg:w-1/2 lg:mr-40 flex items-center justify-center ">
+          <div class="md:w-1/2 lg:w-1/2 lg:mr-40 flex items-center justify-center">
             <div className="flex flex-col">
               <h2 className="text-left ml-7">About</h2>
               <p className="p-8 mr-4">

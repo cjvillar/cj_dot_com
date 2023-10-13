@@ -40,7 +40,6 @@ const Skills = () => {
             Here is a more comprehensive list of all my skills. Projects and
             references are available upon request.
           </p>
-          {/* <div className="d-col-12 t-col-12 m-col-8"> */}
           <div className="m-2 md:mr-8">
             {mySkills.map((skill, index) => (
               <span key={index} className="skillBox">

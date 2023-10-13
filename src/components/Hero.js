@@ -14,7 +14,9 @@ const Hero = () => {
           <div className="break"></div>
           <p className="max-sm:tracking-tighter">
             Currently located in the San Francisco Bay Area. I love building
-            interactive digital experiences for the web. Thanks for stopping by!
+            interactive digital experiences for the web. Check out my
+            <a href="https://www.cjvillarreal.com/ChrisCodes/"> blog</a> for
+            more. Thanks for stopping by!
           </p>
           <Link to="Connect" smooth={true} duration={500}>
             <button className="custom-button">Let’s get in touch!</button>
