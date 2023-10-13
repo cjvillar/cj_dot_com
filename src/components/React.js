@@ -5,8 +5,8 @@ import raspimage from "../images/react_pie .mov";
 
 function ReactPage() {
   return (
-    <div className="flex-wrapper flex justify-center">
-      <div className="flex flex-wrap items-center content-1 h-auto" id="react">
+    <div className="flex-wrapper content flex justify-center">
+      <div className="flex flex-wrap items-center  h-auto" id="react">
         <div className="flex items-center mb-2 ">
           <div className="rounded-full bg-gray-700 m-4">
             <FaReact size={45} className="m-2 logo-clr" />

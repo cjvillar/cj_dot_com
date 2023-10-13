@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="overflow-x-hidden">
       <Nav />
+      <div className="xxl:container xxl:mx-auto">
       <Hero />
       <About />
       <Skills />
@@ -20,6 +21,7 @@ function App() {
       <Flask />
       <ReactPage />
       <Unity />
+      </div>
       <Footer />
     </div>
   );
