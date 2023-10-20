@@ -1,7 +1,7 @@
 import React from "react";
 import me from "../images/chris_image_2.png";
 import uc from "../images/GIlogo@2x.png";
-import hca from "../images/human-cell-atlas.png";
+import hca from "../images/humancellatlas.svg";
 import nvt from "../images/iOXZt1.tif.svg";
 
 function About() {
