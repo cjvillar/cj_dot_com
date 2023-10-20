@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.b67f9c1f.css",
-    "main.js": "/static/js/main.62062cfa.js",
+    "main.js": "/static/js/main.073308c0.js",
     "static/js/787.85f7daf6.chunk.js": "/static/js/787.85f7daf6.chunk.js",
     "static/media/unity_game.mov": "/static/media/unity_game.aa82f24ea1713ec572a0.mov",
     "static/media/react_pie .mov": "/static/media/react_pie .9e1b17e7acdfafa2379b.mov",
     "static/media/animal_rescue.gif": "/static/media/animal_rescue.224826294ce07d5ccbbb.gif",
     "static/media/thoughts.png": "/static/media/thoughts.ce7d55eab465cf8d6673.png",
     "static/media/chris_image_2.png": "/static/media/chris_image_2.e6b6d4f6127778b606e8.png",
+    "static/media/humancellatlas.svg": "/static/media/humancellatlas.423d5cb51b4a54542b6e3a8cf0bbc0fe.svg",
     "static/media/django_app_screenshot.png": "/static/media/django_app_screenshot.b77374fda7a5bf776949.png",
     "static/media/Group 80@2x.png": "/static/media/Group 80@2x.dbc606d40d0c1a942918.png",
     "static/media/flask_app.png": "/static/media/flask_app.5b58bc2ee6f48923167a.png",
     "static/media/GIlogo@2x.png": "/static/media/GIlogo@2x.90061ad74491cd5b97e1.png",
-    "static/media/human-cell-atlas.png": "/static/media/human-cell-atlas.217cea5a30e640a1c9e7.png",
     "static/media/iOXZt1.tif.svg": "/static/media/iOXZt1.tif.cc7fcdb76f222125cd9c438bad280b1d.svg",
     "static/media/white_stripe.svg": "/static/media/white_stripe.9bfed3275208e6d2f9d7c19c8f6bf74e.svg",
     "index.html": "/index.html",
     "main.b67f9c1f.css.map": "/static/css/main.b67f9c1f.css.map",
-    "main.62062cfa.js.map": "/static/js/main.62062cfa.js.map",
+    "main.073308c0.js.map": "/static/js/main.073308c0.js.map",
     "787.85f7daf6.chunk.js.map": "/static/js/787.85f7daf6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b67f9c1f.css",
-    "static/js/main.62062cfa.js"
+    "static/js/main.073308c0.js"
   ]
 }
