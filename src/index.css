@@ -178,7 +178,6 @@ p {
   margin-top: 5px;
   margin-right: auto;
   margin-left: -0.5rem;
-
   color: #be845a;
 }
 
@@ -221,6 +220,13 @@ p {
   border-bottom: 2px solid var(--primary-color);
 }
 
+.nav-item::before {
+  content: "\2022"; /* Use a custom character for the bullet point, e.g., a solid circle */
+  color: #be845a; /* Set the color of the custom bullet point */
+  font-size: 16px; /* Adjust the size of the custom bullet point */
+  margin-right: 8px; /* Add some spacing between the bullet point and the text */
+}
+
 .nav-header .nav-menu {
   display: flex;
 }
@@ -231,14 +237,33 @@ p {
   color: #ffffff;
 }
 
+/*nav line*/
 .nav-header .nav-item a:hover {
   padding-bottom: 5px;
-  border-bottom: 3px solid var(--secondary-color);
+  border-bottom: 1px solid var(--primary-color);
 }
 
 .nav-item .active {
   padding-bottom: 12px;
-  border-bottom: 3px solid var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+@media screen and (max-width: 2600px) and (min-width: 2450px) {
+  .hero-large {
+    padding: 18rem 16rem 0 16rem;
+  }
+
+  .about-large {
+    padding: 20rem 28rem 0 16rem;
+  }
+
+  .skill-large {
+    padding: 16rem 26rem 0 36rem;
+  }
+
+  .footer-large {
+    padding: 20rem 28rem 0 16rem;
+  }
 }
 
 @media screen and (max-width: 1040px) {
@@ -339,10 +364,10 @@ p {
 }
 
 .skillBox {
-  display: inline-block;
+  /* display: inline-block; */
   border: 0.6px solid #be845a;
   padding: 8px 20px;
-  margin: 4px;
+  /* margin: 4px; */
   border-radius: 8px;
   opacity: 1;
 }
@@ -357,23 +382,36 @@ p {
 
 .content {
   margin: auto;
-  padding: 8rem 1rem 0 1rem;
+  padding: 16rem 16rem 0 16rem;
   background-color: #2e2e2e;
 }
 
 .content-1 {
   margin: auto;
-  padding: 8rem 1rem 0 1rem;
+  padding: 16rem 16rem 0 16rem;
   background-color: #272727;
 }
 
 /* Projects */
 .project-img-card {
-  width: 300px;
+  width: 600px;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.1);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+}
+
+.project-vid-card {
+  width: 600px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.project-vid-card video {
+  width: 600px;
+  height: 350px;
 }
 
 .project-img-card img {
@@ -403,7 +441,7 @@ p {
 }
 
 .component-buttons button.active {
-  background-color: #be845a; /* Change the color for active button */
+  background-color: #ffff; /* Change the color for active button */
 }
 
 .component-buttons button:hover {
@@ -479,6 +517,18 @@ p {
   .d-col-12,
   .d-col-full {
     width: 100%;
+  }
+
+  .content {
+    margin: auto;
+    padding: 4rem 4rem 0 4rem;
+    background-color: #2e2e2e;
+  }
+
+  .content-1 {
+    margin: auto;
+    padding: 4rem 8rem 0 4rem;
+    background-color: #272727;
   }
 }
 
@@ -573,7 +623,36 @@ p {
     visibility: hidden;
   }
 
-  .about-mobile {
+  .content {
     margin: auto;
+    padding: 4rem 1rem 0 1rem;
+    background-color: #2e2e2e;
+  }
+
+  .content-1 {
+    margin: auto;
+    padding: 1rem 1rem 0 1rem;
+    background-color: #272727;
+  }
+
+  .project-img-card {
+    width: 300px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .project-vid-card {
+    width: 350px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .project-vid-card video {
+    width: 350px;
+    height: auto;
   }
 }

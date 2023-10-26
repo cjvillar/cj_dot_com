@@ -6,7 +6,7 @@ import raspimage from "../images/react_pie .mov";
 function ReactPage() {
   return (
     <div className="flex-wrapper content flex justify-center">
-      <div className="flex flex-wrap items-center  h-auto" id="react">
+      <div className="flex flex-wrap items-center m-2 p-4 md:w-1/2" id="react">
         <div className="flex items-center mb-2 ">
           <div className="rounded-full bg-gray-700 m-4">
             <FaReact size={45} className="m-2 logo-clr" />
@@ -14,21 +14,21 @@ function ReactPage() {
           <h2>React/Next.js</h2>
         </div>
 
-        <div className="flex justify-start md:flex-row flex-col ">
-          <div class="md:w-1/2 flex items-center justify-center"></div>
+        <div className="flex justify-start md:flex-row flex-col  m-2 p-4">
+          {/* <div class="md:w-1/2 flex items-center justify-center"></div> */}
 
-          <div className="flex flex-col">
+          <div className="flex flex-col ">
             <div className="m-4 project-img-card">
               <img src={thoughtimage} alt="app view" />
             </div>
             <a
-              className="font-bold hover-over"
+              className="font-bold hover-over m-2 p-2"
               href="https://github.com/cjvillar/NextThoughts"
             >
               Thoughts: <span>Click to go to GitHub repo</span>
             </a>
 
-            <p className="p-8">
+            <p className="p-4">
               "Thoughts" is a vibrant full-stack web application crafted with
               the power of the Next.js framework for the front end, MongoDB for
               seamless data storage, and effortlessly brought to life through
@@ -50,12 +50,12 @@ function ReactPage() {
               />
             </div>
             <a
-              className="font-bold hover-over"
+              className="font-bold hover-over m-2 p-2"
               href="https://github.com/cjvillar/pieAct"
             >
               Raspberry Pi Price: <span>Click to go to GitHub repo</span>
             </a>
-            <p className="p-8">
+            <p className="p-4">
               This project came about one morning when I woke up with the urge
               to automate something. Recently, Raspberry Pi prices have been
               egregious. I like to check them out on Amazon.com which often

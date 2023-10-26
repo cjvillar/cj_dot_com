@@ -5,16 +5,19 @@ import flaskappimg from "../images/flask_app.png";
 function Flask() {
   return (
     <div className="flex-wrapper flex content-1 justify-center">
-      <div className="items-center h-auto">
-        <div className="flex items-center mb-2">
+      <div className="items-center md:w-1/2 ">
+        <div className="flex items-center m-2 p-4">
           <div className="rounded-full bg-gray-700 m-4">
             <BiLogoFlask size={45} className="m-2 logo-clr" />
           </div>
           <h2>Flask</h2>
         </div>
 
-        <div className="flex justify-start md:flex-row flex-col" id="flask">
-          <div class="md:w-1/2 flex items-center justify-center flex-col"></div>
+        <div
+          className="flex justify-start md:flex-row flex-col  m-2 p-4"
+          id="flask"
+        >
+          {/* <div class="md:w-1/2 flex items-center justify-center flex-col"></div> */}
 
           <div className="flex flex-col">
             <div className="m-4 project-img-card">
@@ -23,7 +26,7 @@ function Flask() {
 
             <div className="flex flex-col">
               <a
-                className="font-bold hover-over"
+                className="font-bold hover-over m-2 p-4"
                 href="https://github.com/cjvillar/flask_template"
               >
                 Flask <span>Click to go to GitHub repo</span>

@@ -35,7 +35,7 @@ const Navigation = () => {
                 to="Skills"
                 spy={true}
                 smooth={true}
-                offset={-75}
+                offset={-60}
                 duration={500}
                 onClick={closeMenu}
               >

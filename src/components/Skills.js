@@ -19,32 +19,36 @@ const Skills = () => {
     "Git Actions",
     "CI/CD",
     "Docker",
-    "Agile/Scrum Methodologies",
-    "Test Automation",
     "Cypress",
+    "Test Automation",
+    "Agile/Scrum Methodologies",
     "API Testing (Postman, RESTful)",
   ];
   return (
-    <section className="flex-wrapper overflow-y-auto">
-      <div className="flex-grid relative h-auto" id="Skills">
-        <div className="d-col-3 t-col-6 m-col-12">
-          <img
-            src={WhiteBackSlash}
-            alt="logo img"
-            className="skill-image invisible md:visible max-md:translate-x-20"
-          />
-        </div>
-        <div className="d-col-9 t-col-6 m-col-12">
-          <h2 className="text-left">Skills</h2>
-          <p className="grey-p text-left">
+    <section className="flex-wrap h-screen content-1" id="Skills">
+      <div className="flex justify-start m-10 md:flex-row flex-col skill-large">
+        <img
+          src={WhiteBackSlash}
+          alt="logo img"
+          className="skill-image hidden md:flex max-md:translate-x-20"
+        />
+
+        <div className="d-col-12 t-col-4 m-col-4 ">
+          <h2 className="text-left mx-5">Skills</h2>
+          <p className="grey-p text-left mx-5 mb-1">
             Here is a more comprehensive list of all my skills. Projects and
             references are available upon request.
           </p>
-          <div className="m-2 md:mr-8">
+          <div className="flex flex-wrap p-1 md:p-4 md:flex-wrap mx-4 ">
             {mySkills.map((skill, index) => (
-              <span key={index} className="skillBox">
-                <p>{skill}</p>
-              </span>
+              <div className="flex justify-start m-1">
+                <span
+                  key={index}
+                  className="relative border-solid rounded-md skillBox"
+                >
+                  <p>{skill}</p>
+                </span>
+              </div>
             ))}
           </div>
         </div>
