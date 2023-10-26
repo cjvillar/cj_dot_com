@@ -5,7 +5,7 @@ import flaskappimg from "../images/flask_app.png";
 function Flask() {
   return (
     <div className="flex-wrapper flex content-1 justify-center">
-      <div className="items-center h-auto">
+      <div className="items-center ">
         <div className="flex items-center mb-2">
           <div className="rounded-full bg-gray-700 m-4">
             <BiLogoFlask size={45} className="m-2 logo-clr" />
