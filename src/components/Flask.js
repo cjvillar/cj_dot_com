@@ -13,7 +13,10 @@ function Flask() {
           <h2>Flask</h2>
         </div>
 
-        <div className="flex justify-start md:flex-row flex-col  m-2 p-4" id="flask">
+        <div
+          className="flex justify-start md:flex-row flex-col  m-2 p-4"
+          id="flask"
+        >
           {/* <div class="md:w-1/2 flex items-center justify-center flex-col"></div> */}
 
           <div className="flex flex-col">

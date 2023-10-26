@@ -4,8 +4,8 @@ import backSlash from "../images/Group 80@2x.png";
 
 const Hero = () => {
   return (
-    <section className="flex-wrapper h-screen translate-y-20 lg:translate-y-0 hero inset-20 ">
-      <div className="flex-grid m-4">
+    <section className="flex-wrapper h-screen translate-y-20 lg:translate-y-0 hero inset-20 hero-large">
+      <div className="flex-grid m-4 md:w-1/2 lg:w-1/2 lg:m-80">
         <div className="d-col-12 t-col-6 m-col-2 text-left" id="hero">
           <h1 className="hero">
             Hi, I’m <span style={{ color: "#BE845A" }}>Chris</span>, a Software
@@ -22,7 +22,7 @@ const Hero = () => {
             <button className="custom-button">Let’s get in touch!</button>
           </Link>
         </div>
-        <div className="d-col-12 t-col-12 m-col-2 ">
+        <div className="d-col-12 t-col-12 m-col-2">
           <img src={backSlash} alt="logo img" className="hero-img" />
         </div>
       </div>

@@ -248,6 +248,24 @@ p {
   border-bottom: 1px solid var(--secondary-color);
 }
 
+@media screen and (max-width: 2600px) and (min-width: 2450px) {
+  .hero-large {
+    padding: 18rem 16rem 0 16rem;
+  }
+
+  .about-large {
+    padding: 20rem 28rem 0 16rem;
+  }
+
+  .skill-large {
+    padding: 16rem 26rem 0 36rem;
+  }
+
+  .footer-large {
+    padding: 20rem 28rem 0 16rem;
+  }
+}
+
 @media screen and (max-width: 1040px) {
   .nav-header {
     max-width: 100%;
@@ -374,10 +392,6 @@ p {
   background-color: #272727;
 }
 
-
-
-
-
 /* Projects */
 .project-img-card {
   width: 600px;
@@ -395,9 +409,9 @@ p {
   overflow: hidden;
 }
 
-.project-vid-card video{
-  width: 600px; 
-  height: 350px; 
+.project-vid-card video {
+  width: 600px;
+  height: 350px;
 }
 
 .project-img-card img {
@@ -510,14 +524,12 @@ p {
     padding: 4rem 4rem 0 4rem;
     background-color: #2e2e2e;
   }
-  
+
   .content-1 {
     margin: auto;
     padding: 4rem 8rem 0 4rem;
     background-color: #272727;
   }
-  
-  
 }
 
 @media (max-width: 979px) and (min-width: 0px) {
@@ -611,16 +623,6 @@ p {
     visibility: hidden;
   }
 
-  .about-mobile {
-    /* margin: auto; */
-    margin-top: -3rem;
-
-  }
-
-  .skill-mobile{
-    margin-top: -12rem;
-  }
-
   .content {
     margin: auto;
     padding: 4rem 1rem 0 1rem;
@@ -629,10 +631,9 @@ p {
 
   .content-1 {
     margin: auto;
-    padding: 0rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
     background-color: #272727;
   }
-
 
   .project-img-card {
     width: 300px;
@@ -641,7 +642,7 @@ p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
   }
-  
+
   .project-vid-card {
     width: 350px;
     border-radius: 15px;
@@ -650,9 +651,8 @@ p {
     overflow: hidden;
   }
 
-  .project-vid-card video{
-    width: 350px; 
+  .project-vid-card video {
+    width: 350px;
     height: auto;
-   
   }
 }
