@@ -7,25 +7,25 @@ function Django() {
   return (
     <div className="flex-wrapper flex content justify-center">
       <div
-        className="flex flex-wrap items-center h-[calc(100vh + 50px)]"
+        className="flex flex-wrap items-center h-[calc(100vh + 50px)] md:w-1/2 "
         id="Projects"
       >
-        <div className="flex items-center mb-2">
+        <div className="flex items-center m-2 p-4">
           <div className="rounded-full bg-gray-700 m-4">
             <BiLogoDjango size={45} className="m-2 logo-clr" />
           </div>
           <h2>Django</h2>
         </div>
 
-        <div className="flex justify-start md:flex-row flex-col">
-          <div class="md:w-1/2 flex items-center justify-center"></div>
+        <div className="flex justify-start md:flex-row flex-col m-2 p-4">
+          {/* <div class="md:w-1/2 flex items-center justify-center"></div> */}
 
           <div className="flex flex-col">
             <div className="m-4 project-img-card">
               <img src={dimage} alt="django" />
             </div>
             <a
-              className="font-bold hover-over"
+              className="font-bold hover-over m-2 p-4"
               href="https://github.com/the-metadata-dog/rsid_django_project"
             >
               LitVar: A Collaborative Project.{" "}
@@ -53,7 +53,7 @@ function Django() {
               <img src={aimage} alt="django" />
             </div>
             <a
-              className="font-bold hover-over"
+              className="font-bold hover-over m-2 p-4"
               href="https://github.com/cjvillar/Animal_Rescue"
             >
               Animal Rescue: <span>Click to go to GitHub repo</span>

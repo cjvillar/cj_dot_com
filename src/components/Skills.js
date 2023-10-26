@@ -27,7 +27,7 @@ const Skills = () => {
   return (
     <section className="flex-wrap h-screen content-1" id="Skills">
       {/* <div className="flex "> */}
-        <div className="flex justify-start md:flex-row flex-col">
+        <div className="flex justify-start md:m-8 md:flex-row flex-col">
           <img
             src={WhiteBackSlash}
             alt="logo img"
