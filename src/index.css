@@ -388,11 +388,16 @@ p {
 }
 
 .project-vid-card {
-  width: 400px;
+  width: 600px;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.1);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+}
+
+.project-vid-card video{
+  width: 600px; 
+  height: 350px; 
 }
 
 .project-img-card img {
@@ -607,7 +612,13 @@ p {
   }
 
   .about-mobile {
-    margin: auto;
+    /* margin: auto; */
+    margin-top: -3rem;
+
+  }
+
+  .skill-mobile{
+    margin-top: -12rem;
   }
 
   .content {
@@ -618,7 +629,7 @@ p {
 
   .content-1 {
     margin: auto;
-    padding: 0.5rem 1rem 0 1rem;
+    padding: 0rem 1rem 0 1rem;
     background-color: #272727;
   }
 
@@ -632,10 +643,16 @@ p {
   }
   
   .project-vid-card {
-    width: 400px;
+    width: 350px;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+  }
+
+  .project-vid-card video{
+    width: 350px; 
+    height: auto;
+   
   }
 }

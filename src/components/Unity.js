@@ -18,7 +18,7 @@ function Unity() {
 
           <div className="flex flex-col">
             <div className="m-4 project-vid-card">
-              <video src={unity} width="400" height="200" controls="controls" />
+              <video src={unity} controls="controls" />
             </div>
 
             <div className="flex flex-col">

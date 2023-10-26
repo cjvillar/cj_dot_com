@@ -7,7 +7,7 @@ import nvt from "../images/iOXZt1.tif.svg";
 function About() {
   return (
     <section className="flex-wrap content h-screen" id="about">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center about-mobile">
         <div className="flex justify-start md:flex-row flex-col">
           <div class="md:w-1/2 flex items-center flex-col ">
             <img
