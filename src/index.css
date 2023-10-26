@@ -348,10 +348,10 @@ p {
 .skillBox {
   /* display: inline-block; */
   border: 0.6px solid #be845a;
-  /* padding: 8px 20px;
-  margin: 4px;
+  padding: 8px 20px;
+  /* margin: 4px; */
   border-radius: 8px;
-  opacity: 1; */
+  opacity: 1;
 }
 
 .skill-image {
@@ -364,15 +364,19 @@ p {
 
 .content {
   margin: auto;
-  padding: 8rem 1rem 0 1rem;
+  padding: 16rem 16rem 0 16rem;
   background-color: #2e2e2e;
 }
 
 .content-1 {
   margin: auto;
-  padding: 8rem 1rem 0 1rem;
+  padding: 16rem 16rem 0 16rem;
   background-color: #272727;
 }
+
+
+
+
 
 /* Projects */
 .project-img-card {
@@ -582,5 +586,17 @@ p {
 
   .about-mobile {
     margin: auto;
+  }
+
+  .content {
+    margin: auto;
+    padding: 4rem 1rem 0 1rem;
+    background-color: #2e2e2e;
+  }
+
+  .content-1 {
+    margin: auto;
+    padding: 0.5rem 1rem 0 1rem;
+    background-color: #272727;
   }
 }

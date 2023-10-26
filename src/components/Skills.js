@@ -25,8 +25,8 @@ const Skills = () => {
     "API Testing (Postman, RESTful)",
   ];
   return (
-    <section className="flex-wrap content-1 h-screen" id="Skills">
-      <div className="flex flex-col items-center ">
+    <section className="flex-wrap h-screen content-1" id="Skills">
+      {/* <div className="flex "> */}
         <div className="flex justify-start md:flex-row flex-col">
           <img
             src={WhiteBackSlash}
@@ -34,15 +34,15 @@ const Skills = () => {
             className="skill-image invisible md:visible max-md:translate-x-20"
           />
 
-          <div className="d-col-9 t-col-6 m-col-12">
-            <h2 className="text-left">Skills</h2>
-            <p className="grey-p text-left">
+          <div className="d-col-12 t-col-4 m-col-4">
+            <h2 className="text-left mx-5">Skills</h2>
+            <p className="grey-p text-left mx-5 mb-1">
               Here is a more comprehensive list of all my skills. Projects and
               references are available upon request.
             </p>
-            <div className="flex flex-wrap -mx-2 md:flex-col md:flex-wrap md:mx-0 md:space-y-2 lg:flex-nowrap lg:mx-0 lg:space-y-0 lg:space-x-2">
+            <div className="flex flex-wrap p-1 md:p-4 md:flex-wrap mx-4 ">
               {mySkills.map((skill, index) => (
-                <div className="flex flex-col-5 justify-start">
+                <div className="flex justify-start m-1">
                   <span
                     key={index}
                     className="relative border-solid rounded-md skillBox"
@@ -54,7 +54,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </section>
   );
 };
