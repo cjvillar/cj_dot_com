@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.dc7e7932.css",
-    "main.js": "/static/js/main.f0aca04b.js",
+    "main.js": "/static/js/main.4c6b7571.js",
     "static/js/787.85f7daf6.chunk.js": "/static/js/787.85f7daf6.chunk.js",
     "static/media/unity_game.mov": "/static/media/unity_game.aa82f24ea1713ec572a0.mov",
-    "static/media/react_pie .mov": "/static/media/react_pie .9e1b17e7acdfafa2379b.mov",
     "static/media/animal_rescue.gif": "/static/media/animal_rescue.224826294ce07d5ccbbb.gif",
     "static/media/thoughts.png": "/static/media/thoughts.ce7d55eab465cf8d6673.png",
+    "static/media/reactPie.png": "/static/media/reactPie.1dc41d17bd2b157ab7a6.png",
     "static/media/chris_image_2.png": "/static/media/chris_image_2.e6b6d4f6127778b606e8.png",
     "static/media/humancellatlas.svg": "/static/media/humancellatlas.423d5cb51b4a54542b6e3a8cf0bbc0fe.svg",
     "static/media/django_app_screenshot.png": "/static/media/django_app_screenshot.b77374fda7a5bf776949.png",
@@ -17,11 +17,11 @@
     "index.html": "/index.html",
     "static/media/white_stripe.svg": "/static/media/white_stripe.9bfed3275208e6d2f9d7c19c8f6bf74e.svg",
     "main.dc7e7932.css.map": "/static/css/main.dc7e7932.css.map",
-    "main.f0aca04b.js.map": "/static/js/main.f0aca04b.js.map",
+    "main.4c6b7571.js.map": "/static/js/main.4c6b7571.js.map",
     "787.85f7daf6.chunk.js.map": "/static/js/787.85f7daf6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc7e7932.css",
-    "static/js/main.f0aca04b.js"
+    "static/js/main.4c6b7571.js"
   ]
 }
