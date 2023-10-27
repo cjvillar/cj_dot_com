@@ -1,6 +1,7 @@
 import React from "react";
 import { FaUnity } from "react-icons/fa";
 import unity from "../images/unity_game.mov";
+import movPoster from "../images/unity_mov_poster.png";
 
 function Unity() {
   return (
@@ -21,7 +22,7 @@ function Unity() {
 
           <div className="flex flex-col">
             <div className="m-4 project-vid-card">
-              <video src={unity} controls="controls" />
+              <video src={unity} controls="controls" poster={movPoster} />
             </div>
 
             <div className="flex flex-col">

@@ -411,7 +411,7 @@ p {
 
 .project-vid-card video {
   width: 600px;
-  height: 350px;
+  height: auto;
 }
 
 .project-img-card img {
