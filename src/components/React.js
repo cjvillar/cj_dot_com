@@ -1,7 +1,7 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import thoughtimage from "../images/thoughts.png";
-import raspimage from "../images/react_pie .mov";
+import raspimage from "../images/reactPie.png";
 
 function ReactPage() {
   return (
@@ -42,11 +42,9 @@ function ReactPage() {
             </p>
 
             <div className="m-4 project-img-card">
-              <video
+              <img
                 src={raspimage}
-                alt="rasppi video"
-                controls="controls"
-                autoplay="false"
+                alt="react website screenshot"
               />
             </div>
             <a
