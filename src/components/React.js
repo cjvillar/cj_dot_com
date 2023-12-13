@@ -54,22 +54,19 @@ function ReactPage() {
               Raspberry Pi Price: <span>Click to go to GitHub repo</span>
             </a>
             <p className="p-4">
-              This project came about one morning when I woke up with the urge
-              to automate something. Recently, Raspberry Pi prices have been
-              egregious. I like to check them out on Amazon.com which often
-              leads to me buying more stuff I do not need. To solve this problem
+            This project was influenced by my frustrations with how high Raspberry Pi prices have been. I like to track them out on Amazon.com and CanaKit.com which often
+            leads to me buying more stuff I do not need. To solve this problem
               I looked into the wonderful Node library,{" "}
               <a href="https://pptr.dev/">Puppeteer. </a>
-              The functionality, so far, is simple: go to Amazon, search for
-              Raspberry Pi 4gb and scrape the prices from the first page. Cool.
-              I love a service with a good free tier. With GitHub Actions I can
-              set up an automated job to run the page scraper for me!
-              Additionally, I can auto commit the changes via{" "}
+              The functionality, so far, is simple: go to Amazon and CanaKit, search for
+              Raspberry Pi 4gb and scrape the prices from the first page.
+              I created an automated job to run the page scraper using GitHub Actions.
+              Additionally, I  auto-commit the changes via{" "}
               <a href="https://github.com/stefanzweifel/git-auto-commit-action">
                 git-auto-commit-action!
               </a>{" "}
-              The action is set to run everyday at midnight. If the Update Pie
-              Price badge is green then the automated job is working. Check out
+              The action is set to run every day at midnight. If the “Update Pie
+              Price” badge is green then the automated job is working. Check out
               the JSON hosted with GitHub pages:{" "}
               <a href="https://www.cjvillarreal.com/amazon-pie-scrapper/pie_price.json">
                 Pie Prices.
