@@ -17,9 +17,9 @@ function App() {
         <Hero />
         <About />
         <Skills />
-        <Django />
-        <Flask />
         <ReactPage />
+        <Flask />
+        <Django />
         <Unity />
       </div>
       <Footer />

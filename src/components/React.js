@@ -6,7 +6,7 @@ import raspimage from "../images/reactPie.png";
 function ReactPage() {
   return (
     <div className="flex-wrapper content flex justify-center">
-      <div className="flex flex-wrap items-center m-2 p-4 md:w-1/2" id="react">
+      <div className="flex flex-wrap items-center m-2 p-4 md:w-1/2" id="Projects">
         <div className="flex items-center mb-2 ">
           <div className="rounded-full bg-gray-700 m-4">
             <FaReact size={45} className="m-2 logo-clr" />
@@ -42,10 +42,7 @@ function ReactPage() {
             </p>
 
             <div className="m-4 project-img-card">
-              <img
-                src={raspimage}
-                alt="react website screenshot"
-              />
+              <img src={raspimage} alt="react website screenshot" />
             </div>
             <a
               className="font-bold hover-over m-2 p-2"
@@ -54,14 +51,16 @@ function ReactPage() {
               Raspberry Pi Price: <span>Click to go to GitHub repo</span>
             </a>
             <p className="p-4">
-            This project was influenced by my frustrations with how high Raspberry Pi prices have been. I like to track them out on Amazon.com and CanaKit.com which often
-            leads to me buying more stuff I do not need. To solve this problem
-              I looked into the wonderful Node library,{" "}
+              This project was influenced by my frustrations with how high
+              Raspberry Pi prices have been. I like to track them out on
+              Amazon.com and CanaKit.com which often leads to me buying more
+              stuff I do not need. To solve this problem I looked into the
+              wonderful Node library,{" "}
               <a href="https://pptr.dev/">Puppeteer. </a>
-              The functionality, so far, is simple: go to Amazon and CanaKit, search for
-              Raspberry Pi 4gb and scrape the prices from the first page.
-              I created an automated job to run the page scraper using GitHub Actions.
-              Additionally, I  auto-commit the changes via{" "}
+              The functionality, so far, is simple: go to Amazon and CanaKit,
+              search for Raspberry Pi 4gb and scrape the prices from the first
+              page. I created an automated job to run the page scraper using
+              GitHub Actions. Additionally, I auto-commit the changes via{" "}
               <a href="https://github.com/stefanzweifel/git-auto-commit-action">
                 git-auto-commit-action!
               </a>{" "}
