@@ -8,7 +8,7 @@ function Django() {
     <div className="flex-wrapper flex content justify-center">
       <div
         className="flex flex-wrap items-center h-[calc(100vh + 50px)] md:w-1/2 "
-        id="Projects"
+        
       >
         <div className="flex items-center m-2 p-4">
           <div className="rounded-full bg-gray-700 m-4">

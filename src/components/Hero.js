@@ -15,7 +15,7 @@ const Hero = () => {
           <p className="max-sm:tracking-tighter">
             Currently located in the San Francisco Bay Area. I love building
             interactive digital experiences for the web. Check out my
-            <a href="https://www.cjvillarreal.com/ChrisCodes/"> blog</a> for
+            <a href="https://www.cjvillarreal.com/ChrisCodes/"><em> blog</em> </a> for
             more. Thanks for stopping by!
           </p>
           <Link to="Connect" smooth={true} duration={500}>
