@@ -22,8 +22,7 @@ function App() {
         <Django />
         <Unity />
         <Footer />
-     </div>
-     
+      </div>
     </div>
   );
 }

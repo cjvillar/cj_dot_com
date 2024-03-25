@@ -12,13 +12,10 @@ function Flask() {
           </div>
           <h2>Flask</h2>
         </div>
-
         <div
           className="flex justify-start md:flex-row flex-col  m-2 p-4"
           id="flask"
         >
-          {/* <div class="md:w-1/2 flex items-center justify-center flex-col"></div> */}
-
           <div className="flex flex-col">
             <div className="m-4 project-img-card">
               <img src={flaskappimg} alt="app view" />
@@ -31,7 +28,7 @@ function Flask() {
               >
                 Flask <span>Click to go to GitHub repo</span>
               </a>
-              <p className="p-8">
+              <p className="p-4">
                 This project explores the{" "}
                 <a href="https://flask.palletsprojects.com/en/2.2.x/">Flask</a>{" "}
                 micro web framework by creating a simple web app. Users create

@@ -13,9 +13,12 @@ const Navigation = () => {
     <div className="nav-header">
       <nav className="navbar">
         <h3 className="cv-logo md:ml-4">
-          Christopher <span style={{ color: "white" }}>Villarreal  <HolidayEmoji /> </span> 
+          Christopher{" "}
+          <span style={{ color: "white" }}>
+            Villarreal <HolidayEmoji />{" "}
+          </span>
         </h3>
-       
+
         <div className="hamburger" onClick={handleClick}>
           <FaBars className={`lg:hidden ${click ? "hidden" : ""}`} size={30} />
           <FaTimes className={`lg:hidden ${click ? "" : "hidden"}`} size={30} />

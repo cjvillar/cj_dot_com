@@ -1,12 +1,15 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import thoughtimage from "../images/thoughts.png";
-import raspimage from "../images/reactPie.png";
+import tauriBert from "../images/tauri_bert.png";
 
 function ReactPage() {
   return (
     <div className="flex-wrapper content flex justify-center">
-      <div className="flex flex-wrap items-center m-2 p-4 md:w-1/2" id="Projects">
+      <div
+        className="flex flex-wrap items-center m-2 p-4 md:w-1/2"
+        id="Projects"
+      >
         <div className="flex items-center mb-2 ">
           <div className="rounded-full bg-gray-700 m-4">
             <FaReact size={45} className="m-2 logo-clr" />
@@ -15,8 +18,6 @@ function ReactPage() {
         </div>
 
         <div className="flex justify-start md:flex-row flex-col  m-2 p-4">
-          {/* <div class="md:w-1/2 flex items-center justify-center"></div> */}
-
           <div className="flex flex-col ">
             <div className="m-4 project-img-card">
               <img src={thoughtimage} alt="app view" />
@@ -41,7 +42,7 @@ function ReactPage() {
               only allowed users can make an account.
             </p>
 
-            <div className="m-4 project-img-card">
+            {/* <div className="m-4 project-img-card">
               <img src={raspimage} alt="react website screenshot" />
             </div>
             <a
@@ -72,6 +73,26 @@ function ReactPage() {
               </a>{" "}
               You can also check out the prices on a React page I made:{" "}
               <a href="https://www.cjvillarreal.com/pieAct/">here.</a>
+            </p> */}
+
+            <div className="m-4 project-img-card">
+              <img src={tauriBert} alt="react website screenshot" />
+            </div>
+            <a
+              className="font-bold hover-over m-2 p-2"
+              href="https://github.com/cjvillar/tauri_bert"
+            >
+              Tauri BERT: <span>Click to go to GitHub repo</span>
+            </a>
+            <p className="p-4">
+              Using <a href="https://www.npmjs.com/package/@tensorflow/tfjs">TensorFlow</a>, an open-source machine learning framework
+              developed by Google, and the power of Javascript paired with
+              <a href="https://tauri.app/">Tauri</a>, an app construction toolkit, I made a simple yet fun way to
+              interact with a pre-trained BERT model. Tauri is amazing because I
+              can quickly build software for all my systems (Mac, Windows,
+              Linux) using familiar tools for crafting user interfaces (React).
+              I still have a lot to learn here and plan on expanding my
+              knowledge with TensorFlow, Tauri, and Vite.
             </p>
           </div>
         </div>
