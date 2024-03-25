@@ -21,8 +21,9 @@ function App() {
         <Flask />
         <Django />
         <Unity />
-      </div>
-      <Footer />
+        <Footer />
+     </div>
+     
     </div>
   );
 }

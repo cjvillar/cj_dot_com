@@ -16,6 +16,7 @@ const HolidayEmoji = () => {
   const holidayJson = [
     { Date: '01-01', Emoji: '🎉', Tooltip: 'New Year\'s Day' },
     { Date: '02-14', Emoji: '❤️', Tooltip: 'Valentine\'s Day' },
+    { Date: '03-17', Emoji: '🍀', Tooltip: 'Saint Patrick\'s Day' },
     { Date: '04-22', Emoji: '🌎', Tooltip: 'Earth Day' },
     { Date: '05-27', Emoji: '🇺🇸', Tooltip: 'Memorial Day' },
     { Date: '07-04', Emoji: '🎆', Tooltip: 'Independence Day' },
@@ -25,7 +26,6 @@ const HolidayEmoji = () => {
     { Date: '12', Emoji: '❄️', Tooltip: 'Happy Holidays!' },
     { Date: '12-25', Emoji: '🎄', Tooltip: 'Christmas Day' },
     { Date: '12-31', Emoji: '🥂', Tooltip: 'Happy NYE!!!' },
-
     //test data below
     // { Date: '01', Emoji: '🐶', Tooltip: 'Month' },
      //{ Date: '01-02', Emoji: '🦊', Tooltip: 'TODAY' }
