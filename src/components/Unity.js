@@ -5,7 +5,7 @@ import movPoster from "../images/unity_mov_poster.png";
 
 function Unity() {
   return (
-    <div className="flex-wrapper flex content-1 justify-center h-screen">
+    <div className="flex-wrapper flex content-1 justify-center">
       <div className="items-center md:w-1/2 ">
         <div className="flex items-center  m-2 p-4">
           <div className="rounded-full bg-gray-700 m-4">

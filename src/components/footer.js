@@ -5,10 +5,10 @@ import backSlash from "../images/Group 80@2x.png";
 const Footer = () => {
   return (
     <div
-      className="flex-wrapper h-screen flex content justify-center "
+      className="flex-wrapper flex content justify-center"
       id="Connect"
     >
-      <div className="mb-5 flex flex-wrap footer-large">
+      <div className="flex flex-wrap items-center h-[calc(100vh + 50px)] md:w-1/2 ">
         <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 text-left ">
           <h2 className="text-left">Connect</h2>
           <p className="grey-p text-left">
@@ -46,6 +46,7 @@ const Footer = () => {
             className="w-30 h-60 mx-auto relative invisible md:visible"
           />
         </div>
+        <span className="m-2"></span>
       </div>
     </div>
   );
