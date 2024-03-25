@@ -4,16 +4,12 @@ import backSlash from "../images/Group 80@2x.png";
 
 const Footer = () => {
   return (
-    <div
-      className="flex-wrapper flex content justify-center"
-      id="Connect"
-    >
+    <div className="flex-wrapper flex content justify-center" id="Connect">
       <div className="flex flex-wrap items-center h-[calc(100vh + 50px)] md:w-1/2 ">
         <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 text-left ">
           <h2 className="text-left">Connect</h2>
           <p className="grey-p text-left">
-            I’m open to new projects and collaborations, feel free to connect
-            with me on social or drop me a line!
+            Feel free to connect on LinkedIn or GitHub!
           </p>
           <div className="mt-8">
             <button className="contact-button">

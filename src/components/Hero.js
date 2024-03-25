@@ -9,14 +9,16 @@ const Hero = () => {
         <div className="d-col-12 t-col-6 m-col-2 text-left" id="hero">
           <h1 className="hero">
             Hi, I’m <span style={{ color: "#BE845A" }}>Chris</span>, a Software
-            Developer
+            Developer.
           </h1>
           <div className="break"></div>
           <p className="max-sm:tracking-tighter">
-            Currently located in the San Francisco Bay Area. I love building
-            interactive digital experiences for the web. Check out my
-            <a href="https://www.cjvillarreal.com/ChrisCodes/"><em> blog</em> </a> for
-            more. Thanks for stopping by!
+            I love to learn, tinker, and create. I built this site to document
+            my journey and to inspire. Check out my{" "}
+            <a href="https://www.cjvillarreal.com/ChrisCodes/">
+              <em> blog</em>{" "}
+            </a>{" "}
+            for more. Thanks for stopping by!
           </p>
           <Link to="Connect" smooth={true} duration={500}>
             <button className="custom-button">Let’s get in touch!</button>

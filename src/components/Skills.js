@@ -6,7 +6,7 @@ const Skills = () => {
     "Python",
     "Django",
     "Flask",
-    "Javascript",
+    "JavaScript",
     "React",
     "Next",
     "HTML",
@@ -21,7 +21,6 @@ const Skills = () => {
     "Docker",
     "Cypress",
     "Test Automation",
-    "Agile/Scrum Methodologies",
     "API Testing (Postman, RESTful)",
   ];
   return (
@@ -33,13 +32,13 @@ const Skills = () => {
           className="skill-image hidden md:flex max-md:translate-x-20"
         />
 
-        <div className="d-col-12 t-col-4 m-col-4 ">
+        <div className="d-col-12 t-col-4 m-col-4">
           <h2 className="text-left mx-5">Skills</h2>
           <p className="grey-p text-left mx-5 mb-1">
             Here is a more comprehensive list of all my skills. Projects and
             references are available upon request.
           </p>
-          <div className="flex flex-wrap p-1 md:p-4 md:flex-wrap mx-4 ">
+          <div className="flex flex-wrap md:p-8 md:flex-wrap mx-1">
             {mySkills.map((skill, index) => (
               <div className="flex justify-start m-1">
                 <span
@@ -58,3 +57,4 @@ const Skills = () => {
 };
 
 export default Skills;
+

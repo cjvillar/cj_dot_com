@@ -1,45 +1,44 @@
 //simple emoji gen for holiday themes on webpage nav component
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const HolidayEmoji = () => {
   const [matchingData, setMatchingData] = useState(null);
   //all this to get "DD-YY" format
   const currentDate = new Date(); //current date
-  const currentMonth = ('0' + (currentDate.getMonth() + 1)).slice(-2); //month (add 1 to get correct month)
-  const currentDay = ('0' + currentDate.getDate()).slice(-2); //day
+  const currentMonth = ("0" + (currentDate.getMonth() + 1)).slice(-2); //month (add 1 to get correct month)
+  const currentDay = ("0" + currentDate.getDate()).slice(-2); //day
 
   const formattedDate = `${currentMonth}-${currentDay}`; //format a"MM-DD"
-  console.log(formattedDate); 
+  console.log(formattedDate);
 
-  
   const holidayJson = [
-    { Date: '01-01', Emoji: '🎉', Tooltip: 'New Year\'s Day' },
-    { Date: '02-14', Emoji: '❤️', Tooltip: 'Valentine\'s Day' },
-    { Date: '03-17', Emoji: '🍀', Tooltip: 'Saint Patrick\'s Day' },
-    { Date: '04-22', Emoji: '🌎', Tooltip: 'Earth Day' },
-    { Date: '05-27', Emoji: '🇺🇸', Tooltip: 'Memorial Day' },
-    { Date: '07-04', Emoji: '🎆', Tooltip: 'Independence Day' },
-    { Date: '08-26', Emoji: '🐶', Tooltip: 'Int. Dog Day' },
-    { Date: '10', Emoji: '🎃', Tooltip: 'Halloween' },
-    { Date: '11-11', Emoji: '🇺🇸', Tooltip: 'Veterans Day' },
-    { Date: '12', Emoji: '❄️', Tooltip: 'Happy Holidays!' },
-    { Date: '12-25', Emoji: '🎄', Tooltip: 'Christmas Day' },
-    { Date: '12-31', Emoji: '🥂', Tooltip: 'Happy NYE!!!' },
+    { Date: "01-01", Emoji: "🎉", Tooltip: "New Year's Day" },
+    { Date: "02-14", Emoji: "❤️", Tooltip: "Valentine's Day" },
+    { Date: "03-17", Emoji: "🍀", Tooltip: "Saint Patrick's Day" },
+    { Date: "04-22", Emoji: "🌎", Tooltip: "Earth Day" },
+    { Date: "05-27", Emoji: "🇺🇸", Tooltip: "Memorial Day" },
+    { Date: "07-04", Emoji: "🎆", Tooltip: "Independence Day" },
+    { Date: "08-26", Emoji: "🐶", Tooltip: "Int. Dog Day" },
+    { Date: "10", Emoji: "🎃", Tooltip: "Halloween" },
+    { Date: "11-11", Emoji: "🇺🇸", Tooltip: "Veterans Day" },
+    { Date: "12", Emoji: "❄️", Tooltip: "Happy Holidays!" },
+    { Date: "12-25", Emoji: "🎄", Tooltip: "Christmas Day" },
+    { Date: "12-31", Emoji: "🥂", Tooltip: "Happy NYE!!!" },
     //test data below
     // { Date: '01', Emoji: '🐶', Tooltip: 'Month' },
-     //{ Date: '01-02', Emoji: '🦊', Tooltip: 'TODAY' }
+    //{ Date: '01-02', Emoji: '🦊', Tooltip: 'TODAY' }
   ];
 
   useEffect(() => {
     // funct to find matching date in holidayJson above
     const findMatchingDate = () => {
-      let matchingItem = null; 
-  
-      holidayJson.forEach(item => {
+      let matchingItem = null;
+
+      holidayJson.forEach((item) => {
         const itemDate = new Date(item.Date);
-        const dateParts = item.Date.split('-'); // split date string by dash
-  
+        const dateParts = item.Date.split("-"); // split date string by dash
+
         if (dateParts.length === 2) {
           //two parts, full date with day and month
           if (
@@ -57,13 +56,13 @@ const HolidayEmoji = () => {
           }
         }
       });
-  
+
       setMatchingData(matchingItem); // prioritized date is day only (for holidays)
     };
-  
-    findMatchingDate(); 
+
+    findMatchingDate();
   }, []); //empty dependency array ensures this runs only once on mount
-  
+
   return (
     <>
       {matchingData ? (
@@ -73,6 +72,5 @@ const HolidayEmoji = () => {
       )}
     </>
   );
-  
-      }
+};
 export default HolidayEmoji;
