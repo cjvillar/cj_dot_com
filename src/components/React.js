@@ -85,14 +85,19 @@ function ReactPage() {
               Tauri BERT: <span>Click to go to GitHub repo</span>
             </a>
             <p className="p-4">
-              Using <a href="https://www.npmjs.com/package/@tensorflow/tfjs">TensorFlow</a>, an open-source machine learning framework
-              developed by Google, and the power of Javascript paired with
-              <a href="https://tauri.app/">Tauri</a>, an app construction toolkit, I made a simple yet fun way to
-              interact with a pre-trained BERT model. Tauri is amazing because I
-              can quickly build software for all my systems (Mac, Windows,
-              Linux) using familiar tools for crafting user interfaces (React).
-              I still have a lot to learn here and plan on expanding my
-              knowledge with TensorFlow, Tauri, and Vite.
+              Using{" "}
+              <a href="https://www.npmjs.com/package/@tensorflow/tfjs">
+                TensorFlow
+              </a>
+              , an open-source machine learning framework developed by Google,
+              and the power of Javascript paired with
+              <a href="https://tauri.app/">Tauri</a>, an app construction
+              toolkit, I made a simple yet fun way to interact with a
+              pre-trained BERT model. Tauri is amazing because I can quickly
+              build software for all my systems (Mac, Windows, Linux) using
+              familiar tools for crafting user interfaces (React). I still have
+              a lot to learn here and plan on expanding my knowledge with
+              TensorFlow, Tauri, and Vite.
             </p>
           </div>
         </div>

@@ -3,22 +3,30 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import HolidayEmoji from "./HolidayEmoji";
 
-const Navigation = () => {
+const Navigation = ({ toggleGamePopup }) => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
   const closeMenu = () => setClick(false);
 
+  const handleGamePopupClick = () => {
+    toggleGamePopup();
+    closeMenu();
+  };
+
   return (
     <div className="nav-header">
       <nav className="navbar">
-        <h3 className="cv-logo md:ml-4">
+        <button
+          className="cv-logo md:ml-4"
+          onClick={handleGamePopupClick}
+          style={{ backgroundColor: "transparent", border: "none" }}
+        >
           Christopher{" "}
           <span style={{ color: "white" }}>
             Villarreal <HolidayEmoji />{" "}
           </span>
-        </h3>
-
+        </button>
         <div className="hamburger" onClick={handleClick}>
           <FaBars className={`lg:hidden ${click ? "hidden" : ""}`} size={30} />
           <FaTimes className={`lg:hidden ${click ? "" : "hidden"}`} size={30} />
