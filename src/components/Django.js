@@ -31,7 +31,8 @@ function Django() {
               and I just had to make sure the components and their respective
               test worked with the our downstream changes. This simple project
               gave me a better understanding of how the React and Django REST
-              Frameworks work together.
+              Frameworks work together. Additionally, I dockerized the Animal Rescue 
+              to simplify deployment and ensure consistency across different environments.
             </p>
           </div>
         </div>
